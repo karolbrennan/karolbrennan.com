@@ -1,0 +1,86 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    outline: none;
+}
+html, body {
+    font-kerning: normal;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    padding: 0;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+.justify {
+    text-align: justify;
+}
+.block {
+    display: block;
+    width: 100%;
+}
+
+.row {
+    width: 60rem;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.titlerow .col {
+    padding: 1rem;
+}
+.col {
+    display: inline-block;
+    vertical-align: top;
+    padding: 2rem;
+}
+.col .col, .col .col .col {
+    padding: 0;
+}
+
+.c5 { width: 5%; }
+.c10 { width: 10%; }
+.c15 { width: 15%; }
+.c20 { width: 20%; }
+.c25 { width: 25%; }
+.c30 { width: 30%; }
+.c35 { width: 35%; }
+.c40 { width: 40%; }
+.c45 { width: 45%; }
+.c50 { width: 50%; }
+.c55 { width: 55%; }
+.c60 { width: 60%; }
+.c65 { width: 65%; }
+.c70 { width: 70%; }
+.c75 { width: 75%; }
+.c80 { width: 80%; }
+.c85 { width: 85%; }
+.c90 { width: 90%; }
+.c95 { width: 95%; }
+.c100 { width: 100%; }
+
+header .col {
+    vertical-align: middle;
+}
+nav ul, nav ul li {
+    padding: 0;
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    padding: 0.25rem 0.5rem;
+}
+
+@media screen and (max-width: 40em) {
+    .col {
+        width: 100%;
+        padding: 1rem;
+    }
+}

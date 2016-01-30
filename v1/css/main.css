@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #fafafa;
+    margin: 0;
+    padding: 3rem 2rem;
+    background: #222;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: 0;
+}
+
+a {
+    color: #ad84d1;
+    text-decoration: none;
+}
+a:hover {
+    color: #5d466f;
+}

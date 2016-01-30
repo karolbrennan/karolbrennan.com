@@ -1,0 +1,583 @@
+/* ---------- Base Styles ---------- */
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    outline: none;
+}
+html, body {
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    color: #fff;
+    text-shadow: 0.1rem 0.1rem 0 rgba(0,0,0,0.1);
+    font-kerning: normal;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    padding: 0;
+}
+body {
+  background: url("../img/minty.png") #A4EBCE;
+}
+.container {
+    width: 60rem;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+.block {
+    display: block;
+    width: 100%;
+}
+.col-60, .col-40 {
+    display: inline-block;
+    vertical-align: top;
+}
+.col-60 {
+    width: 60%;
+}
+.col-40 {
+    width: 40%;
+}
+.col-50 {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.col-50 p {
+    margin: 0 0 2rem;
+    padding: 0;
+}
+.col-50 p strong, .col-50 p em {
+    margin: 0;
+    padding: 0.2rem 0;
+    display: block;
+}
+.col-50 p strong {
+    font-weight: 200;
+    color: #444;
+}
+.col-50 p em {
+    font-size: 1.4rem;
+    line-height: 100%;
+}
+
+/* ---------- Typography ---------- */
+
+h1, h2, h3, h4, h5, h6 {
+    color: #F9F9F9;
+    text-shadow: 0.1rem 0.1rem 0 rgba(66, 66, 66, 0.13);
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
+}
+h1 {
+    font-size: 5.5rem;
+    line-height: 6rem;
+    margin: 4rem 0 2rem;
+}
+h1 span {
+    text-shadow: 0.2rem 0.2rem 0.05rem rgba(66,66,66,0.17);
+    font-size: 6.5rem;
+    line-height: 10rem;
+    padding-left: 0.5rem;
+    color: #444;
+    font-family: 'Shadows Into Light Two', cursive;
+    text-transform: capitalize;
+}
+h2 {
+    color: #444;
+    font-size: 4rem;
+    line-height: 150%;
+    margin: 0 0 2rem;
+    padding-top: 4rem;
+    border-bottom: 0.1rem solid #8ED5B8;
+}
+h3 {
+    font-size: 3.5rem;
+}
+h4{
+    font-size: 3rem;
+}
+h5 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    font-weight: 200;
+}
+h6 {
+   font-size: 2rem;
+}
+
+.logo a {
+    font-family: 'Shadows Into Light Two', cursive;
+    background: #A5ECCF;
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+    border-bottom: 0;
+    white-space: nowrap;
+}
+.logo a:hover {
+    border-bottom: 0;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+a:hover {
+    cursor: pointer;
+}
+p a {
+    border-bottom: 0.15rem dashed #7CC2A5;
+}
+p a:hover {
+    border-bottom: 0.15rem dashed #444;
+}
+p {
+    line-height: 150%;
+    color: #444;
+}
+p.right {
+    font-size: 0.8rem;
+}
+
+/* ---------- Header ---------- */
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+header .logo, header .nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+header .nav {
+    float: right;
+    margin-top: 0.75rem;
+}
+header nav a {
+    padding: 1.55rem 1rem;
+}
+header nav a:hover {
+    background: #323232;
+}
+header nav a:active, header nav .active, header nav .active:active {
+    background: #A5ECCF;
+}
+header, footer {
+    background: #222;
+    color: #444;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+}
+/* ---------- Footer ---------- */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer .col-50 p {
+    padding: 0;
+    margin: 0;
+    font-size: 0.8rem;
+    color: #A8A8A8;
+}
+footer .social img {
+    max-width: 1rem;
+}
+footer .social a {
+    padding: 0.25rem;
+    color: #A8A8A8;
+}
+footer .social a:hover {
+    color: #fff;
+}
+
+
+/* ---------- Sections ---------- */
+
+section {
+    padding: 5rem 0;
+    margin-bottom: 5rem;
+    min-height: 100vh;
+}
+#work ul {
+    list-style: none;
+    text-align: center;
+}
+#work ul li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    background: #FFF;
+    width: 14rem;
+    height: 14rem;
+    text-align: center;
+    margin: 0.5rem;
+}
+#work ul li img {
+    max-width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+.resumelink {
+    font-size: 0.8rem;
+    margin: 2rem 0;
+    display: block;
+}
+.resumelink a {
+    color: #444;
+}
+#resume .col-60 {
+    padding-right: 3rem;
+    border-right: 1px solid #fff;
+}
+#resume .desc {
+    font-style: italic;
+    color: #444;
+}
+#resume strong {
+    color: #444;
+}
+#resume .col-50 p {
+    margin: 1rem 0;
+    font-style: italic;
+    color: #444;
+}
+.accomplishments {
+    margin: 1rem 0 3rem 0;
+    font-size: 0.85rem;
+    padding: 0 0 0 1rem;
+    color: #444;
+}
+.right strong, .right em {
+    color: #444;
+    display: block;
+}
+#resume .skills {
+    list-style: none;
+    margin: 0 0 0 2rem;
+    padding: 0;
+}
+#resume .skills li {
+    padding: 0.5rem 0;
+}
+.skillname, .skillrange {
+    display: inline-block;
+    vertical-align: top;
+    height: 1rem;
+}
+.skillname {
+    text-align: right;
+    font-size: 0.75rem;
+    width: 40%;
+    padding: 0.15rem 1rem 0.15rem 0;
+    border-right: 0.15rem solid #fff;
+    color: #444;
+}
+.skillrange {
+    width: 60%;
+    background: #e9f9ed;
+}
+.skillrange span:first-of-type {
+    background: #444;
+    box-shadow: 0 0 0.25rem rgba(0,0,0,0.5);
+}
+.s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8, .s9, .s10, .s0 {
+    display: inline-block;
+    vertical-align: top;
+    content: ' ';
+    height: 1rem;
+}
+.s1 {
+    width: 10%;
+}
+.s2 {
+    width: 20%;
+}
+.s3 {
+    width: 30%;
+}
+.s4 {
+    width: 40%;
+}
+.s5 {
+    width: 50%;
+}
+.s6 {
+    width: 60%;
+}
+.s7 {
+    width: 70%;
+}
+.s8 {
+    width: 80%;
+}
+.s9 {
+    width: 90%;
+}
+.s10 {
+    width: 100%;
+}
+.s0 {
+    width: 0;
+}
+.logos {
+    text-align: center;
+    padding: 3rem 0 0;
+}
+.logos img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 2.5rem;
+    height: auto;
+    margin: 1rem 0.75rem;
+}
+#current ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#current ul li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.5rem;
+    background: #fff;
+    width: 12rem;
+    height: 12rem;
+    padding: 0.5rem;
+    color: #444;
+}
+
+/* ---------- Navigation ---------- */
+nav ul {
+    font-size: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    font-size: 1rem;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- Images ---------- */
+
+h1 img {
+    display: inline-block;
+    vertical-align: text-top;
+    max-width: 10rem;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 12rem;
+    border: 0.5rem solid rgba(255, 255, 255, 1);
+    padding: 0.25rem;
+    background: #FFEDD1;
+    outline: none;
+    box-shadow: 0.2rem 0.2rem 0.05rem rgba(66,66,66,0.17);;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+h1 img:hover {
+    -webkit-filter: grayscale(10%);
+}
+
+/* ---------- Forms ---------- */
+form {
+    margin-bottom: 8rem;
+}
+input, textarea {
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    display: block;
+    border: none;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #FFFFFF;
+    width: 25rem;
+    background: transparent;
+    padding: 0.5rem 1rem;
+    border-bottom: 0.1rem solid #8ED5B8;
+    height: 4rem;
+}
+p button {
+    font-size: 1rem;
+    vertical-align: middle;
+    position: relative;
+}
+button {
+    color: #272727;
+    text-shadow: 0.05rem 0.05rem 0 rgba(255, 255, 255, 0.56);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background: #FFEDD1;
+    box-shadow: inset 0 0.15rem 0 rgba(255, 255, 255, 0.55), 0 0.25rem 0 #BBA27B;
+    border-radius: 1rem 0.5rem;
+    border: none;
+    white-space: nowrap;
+}
+button:hover {
+    color: #272727;
+    background: #A5ECCF;
+    box-shadow: inset 0 0.15rem 0 rgba(255, 255, 255, 0.55), 0rem 0.25rem 0 #4BA580;
+    cursor: pointer;
+}
+button:active {
+    color: #272727;
+    background: #86CBAF;
+    box-shadow: inset 0 -0.1rem 0 rgba(255, 255, 255, 0.25), inset 0 0.13rem 0 rgba(0, 0, 0, 0.35);
+}
+
+button[title]:hover:after {
+    content: '( ' attr(title) ' )';
+    font-size: 0.8rem;
+    position: absolute;
+    top: 3rem;
+    left: -6rem;
+    background: #383838;
+    white-space: nowrap;
+    text-align: left;
+    padding: 1rem 1.5rem;
+    color: #fff;
+    text-shadow: 0.05rem 0.05rem 0 #000;
+    box-shadow: 0.2rem 0.2rem 0 rgba(10, 10, 10, 0.28);
+    border-radius: 1rem 0.5rem;
+}
+#form-messages {
+    font-size: 1.4rem;
+    color: #444;
+}
+::-webkit-input-placeholder {
+    color: #efefef;
+}
+:-moz-placeholder {
+    color: #efefef;
+}
+::-moz-placeholder {
+    color: #efefef;
+}
+:-ms-input-placeholder {
+    color: #efefef;
+}
+
+
+@media screen and (max-width: 40em){
+  header {
+    padding: 0;
+  }
+  header .container {
+    padding: 0;
+  }
+  header .nav {
+    float: none;
+    margin-top: 0;
+  }
+  header nav a {
+    padding: 1.25rem 0.75rem;
+  }
+  .logo a {
+    padding: 0.35rem 0.5rem;
+    font-size: 2rem;
+    margin: 0;
+  }
+  .container {
+    width: 100%;
+    padding: 1rem;
+    overflow-x: hidden;
+  }
+  h1 {
+    font-size: 2rem;
+    line-height: 120%;
+    margin: 0;
+  }
+  h1 span {
+    font-size: 2.5rem;
+    line-height: 150%;
+  }
+  h1 img {
+    float: right;
+    display: inline;
+    margin: 0 -3rem 0 0;
+    max-width: 8rem;
+  }
+  #intro {
+    padding-top: 4.5rem;
+  }
+  section {
+    padding: 0;
+    margin-bottom: 6rem;
+    min-height: 100vh;
+  }
+  h2 {
+    font-size: 2rem;
+    padding-top: 6rem;
+  }
+  #resume .col-60, #resume .col-40, #resume .col-50 {
+    padding: 0 0.5rem;
+    border: none;
+    display: block;
+    width: 100%;
+  }
+  h5.right, .col-50.right, .right h5, .right {
+    text-align: left;
+  }
+  header nav a:hover {
+    background: #A5ECCF;
+  }
+  input, textarea {
+    font-size: 1.25rem;
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 2.5rem;
+  }
+  textarea {
+    height: 4rem;
+  }
+  button {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 40.063em) and (max-width: 64em){
+  h1 span {
+    font-size: 3.5rem;
+    line-height: 150%;
+  }
+  h1 {
+    font-size: 3rem;
+    line-height: 135%;
+  }
+  h1 img {
+    float: right;
+    display: inline;
+    margin: -2rem 0 0 0;
+  }
+  #resume .col-60, #resume .col-40 {
+    width: 50%;
+  }
+  #resume .col-50 {
+    width: 100%;
+  }
+  #resume .col-50.right {
+    text-align: left;
+  }
+  header nav a {
+    padding: 1.45rem 1rem;
+  }
+  header nav a:hover {
+    background: #A5ECCF;
+  }
+}

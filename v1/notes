@@ -1,0 +1,17 @@
+
+                    <li><a href="#current" data-scroll="current">Current</a></li>
+
+
+<section id="current" data-anchor="current"><a name="current"></a>
+    <div class="container">
+        <h2>Current Projects</h2>
+        <ul>
+            <li><img src="http://karolbrennan.com/img/web/retrogamingzone_thumb.png" alt="Retro Gaming Zone"></li>
+            <li>Retro Gaming Zone</li>
+            <li>Who's Bringing Ham Gravy</li>
+            <li>Codemaster Karol Blog</li>
+            <li>Karol's Cookbook</li>
+            <li>We Bought A House</li>
+        </ul>
+    </div>
+</section>
