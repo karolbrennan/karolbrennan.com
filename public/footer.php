@@ -8,6 +8,7 @@
         </div>
     </div>
 </footer>
+</div>
 
 <div class="glow"></div>
 <script>

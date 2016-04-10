@@ -19,11 +19,15 @@
             <nav>
                 <ul>
                     <li><a href="#intro" data-scroll="intro">Intro</a></li>
-                    <li><a href="#resume" data-scroll="resume">Résumé</a></li>
-                    <li><a href="#work" data-scroll="work">Work</a></li>
+                    <li><a href="#about" data-scroll="about">About</a></li>
+                    <li><a href="#experience" data-scroll="experience">Experience</a></li>
+                    <li><a href="#portfolio" data-scroll="portfolio">Portfolio</a></li>
+                    <li><a href="#testimonials" data-scroll="testimonials">Testimonials</a></li>
                     <li><a href="#contact" data-scroll="contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </div>
 </header>
+
+<div class="container">

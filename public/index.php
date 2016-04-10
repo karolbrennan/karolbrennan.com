@@ -11,8 +11,10 @@
 </section>
 
 <?php
-    require('resume.php');
-    require('work.php');
+    require('about.php');
+    require('experience.php');
+    require('portfolio.php');
+    require('testimonials.php');
     require('contact.php');
     require('footer.php');
 ?>

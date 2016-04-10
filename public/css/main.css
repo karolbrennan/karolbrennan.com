@@ -2,7 +2,6 @@ body {
     background: url('../img/background.jpg') center center fixed #222;
     font-family: Helvetica Neue, Helvetica, "Segoe UI", Arial, sans-serif;
     color: #fff;
-    overflow-x: hidden;
 }
 .glow {
     background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
@@ -17,6 +16,12 @@ body {
     top: 0;
     left: 0;
     z-index: -1;
+}
+
+.container {
+    overflow: hidden;
+    width: 100%;
+    display: block;
 }
 
 /* ---------- Typography ---------- */
@@ -70,13 +75,25 @@ h4 {
     text-transform: uppercase;
     font-size: 1.5rem;
 }
-
-#resume em {
+h5 {
+    font-size: 1.25rem;
+    margin: 0 0 0.25rem;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+#experience em {
     text-align: right;
     display: block;
     margin-top: 0.5rem;
 }
-#resume h4 {
+#experience h4 {
     font-size: 1.35rem;
     margin: 0.25rem 0;
 }
@@ -123,6 +140,7 @@ section::after {
 
 
 /* ---------- Intro ---------- */
+
 #intro-section .c100 {
     min-height: 90vh;
 }
@@ -130,6 +148,7 @@ section::after {
     padding: 25% 0;
 }
 #intro-section h2 {
+    text-align: center;
     color: #dadada;
     font-size: 4.25rem;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
@@ -142,50 +161,74 @@ section::after {
 }
 
 
-/* ---------- Resume ---------- */
+/* ---------- about section ---------- */
 
-#resume-section {
+#about-section {
     background: #FFB23F;
-    padding: 0 0 2rem;
     color: #111;
+    padding-bottom: 4%;
 }
-#resume-section h2 {
+#about-section h2 {
     color: #222;
 }
-#resume-section::before,
-#resume-section::after {
+#about-section::before,
+#about-section::after {
     height: 15%;
     transform: rotate(4deg);
     transform-origin: 0 0;
     background: inherit;
 }
-#resume-section::before {
+#about-section::before {
     top: -15%;
 }
-#resume-section:after {
+#about-section:after {
     bottom: -15%;
     transform: rotate(-5deg);
 }
+
+.technology span {
+    background: #ffb23f;
+    color: #090909;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0.25rem 0.8rem;
+    margin: 0.25rem;
+    line-height: 2rem;
+    border-radius: 1rem;
+    white-space: nowrap;
+}
+
+
+/* ---------- experience section ---------- */
+#experience-section {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
 .accomplishments {
     list-style: square;
     padding: 0 1.25rem;
     font-size: 0.9rem;
 }
 .job {
-    background: rgb(3, 3, 3);
-    border: 0.5rem solid #FFB23F;
+    background: rgba(0, 0, 0, 0.35);
     padding: 2rem;
-    color: #fff;
+    margin-bottom: 2rem;
 }
 .job em {
     text-align: right;
     display: block;
     margin-top: 1.25rem;
-    color: #FFB23F;
+    color: #fff;
+    text-transform: uppercase;
     font-weight: bold;
 }
 .job h4 {
     color: #FC4D72;
+    margin: 0;
+}
+.job strong {
+    color: #ffa247;
 }
 .job .c50:first-of-type {
     padding: 0 1.5rem 0 1rem;
@@ -194,63 +237,85 @@ section::after {
     padding: 0 1rem 0 1.5rem;
 }
 .desc, .accomplishments li {
-    color: #676767;
+    color: #8e8e8e;
 }
-#resume-section a {
-    color: #222;
-    text-shadow: 1px 1px 0 #ffc474;
+#experience-section a {
+    color: #FC4D72;
 }
 
-/* ---------- Work ---------- */
 
-#work-section {
-    padding: 4rem 0 6rem;
+
+/* ---------- portfolio ---------- */
+
+#portfolio-section {
+    background: #FC4D72;
+    padding-bottom: 5%;
 }
-#work-section h2 {
-    text-align: right;
+#portfolio-section::before,
+#portfolio-section::after {
+    height: 15%;
+    transform: rotate(4deg);
+    transform-origin: 0 0;
+    background: inherit;
+}
+#portfolio-section::before {
+    top: -10%;
+}
+#portfolio-section:after {
+    bottom: -10%;
+    transform: rotate(-5deg);
+}
+#portfolio-section h2 {
     margin-bottom: 1.5rem;
+    color: #fff;
 }
-#work-section ul {
+#portfolio-section ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-#work-section ul li {
+#portfolio-section ul li {
     min-height: 12rem;
     background: rgba(58, 58, 58, 0.3);
     border: solid rgb(24, 24, 24);
     border-width: 0 0.25rem 0.25rem 0;
     padding: 1rem;
 }
-#work-section h4 {
+#portfolio-section h4 {
     font-size: 1rem;
     margin: 0 0 0.5rem;
 }
+#portfolio-section .sample a {
+    background: #111;
+    color: #fff;
+    text-shadow: none;
+    padding: 0.5rem 1rem;
+}
 
-#work-section .site-url {
+#portfolio-section .site-url {
     display: block;
 }
 
-#work-section .col {
+#portfolio-section .col {
     text-align: center;
 }
 
-#work-section img {
+#portfolio-section img {
     border: 0.25rem solid white;
     max-width: 100%;
     padding: 1px;
     background: #565656;
 }
-#work-section .col.sample {
+#portfolio-section .col.sample {
     padding: 0.5rem;
 }
-#work-section .c100.sample {
+#portfolio-section .c100.sample {
     padding: 0.5rem 0.6rem;
 }
-#work-section h3 {
-    color: #EA486B;
+#portfolio-section h3 {
+    color: #fff;
 }
-#work-section p {
+#portfolio-section p {
     font-size: 0.8rem;
     font-style: italic;
 }
@@ -259,14 +324,67 @@ section::after {
     width: 100%;
     padding: 5rem 2rem;
     background: #111;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 0.5rem #111;
+    margin-bottom: 2rem;
 }
+
+
+.invention .placeholder {
+    background: url("/img/sites/inventiongroup/invention_desktop.png") top center no-repeat;
+    background-size: cover;
+    font-size: 0;
+}
+
+.cornerstone .placeholder {
+    background: url("/img/sites/cornerstone/cornerstone_desktop.png") top center no-repeat;
+    background-size: cover;
+    font-size: 0;
+}
+
+.kidneywi .placeholder {
+    background: url("/img/sites/kidneyfoundation/kidney_desktop.png") top center no-repeat;
+    background-size: cover;
+    font-size: 0;
+}
+
+.retro .placeholder {
+    background: url("/img/sites/retrogamingzone/retro_desktop.png") top center no-repeat;
+    background-size: cover;
+    font-size: 0;
+}
+
+.weconnect .placeholder {
+    background: url("/img/sites/weconnect/raysoflight.png") top center no-repeat;
+    background-size: cover;
+    font-size: 0;
+}
+
+.cookbook .placeholder {
+    background: url("/img/sites/cookbook/cookbook_desktop.png") top center no-repeat;
+    background-size: cover;
+    font-size: 0;
+}
+
+/* ---------- Testimonials Section ---------- */
+#testimonials-section {
+    padding-top: 6%;
+    padding-bottom: 10%;
+}
+.testimonial > div {
+    background: rgba(0,0,0,0.3);
+    padding: 0.5em 2rem;
+}
+
+
 
 /* ---------- Contact ---------- */
 
 #contact-section {
-    background: #EA486B;
-    padding: 2rem 0 0;
+    background: #161616;
     min-height: 70vh;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 #contact-section a {
     color: #292929;
@@ -322,6 +440,10 @@ section::after {
 #contact-section #form-messages:not(:empty) {
     padding: 1rem 0;
 }
+#contact-section .social a {
+    color: #fff;
+    text-shadow: 1px 1px 0 #000;
+}
 .social {
     list-style: none;
     font-size: 1.8rem;
@@ -330,7 +452,7 @@ section::after {
 }
 .social span {
     color: #FF90A8;
-    text-shadow: 1px 1px 0 #C73051;
+    text-shadow: 1px 1px 0 #000;
     font-weight: 200;
     font-size: 1.25rem;
     vertical-align: top;
@@ -375,10 +497,10 @@ footer .desc {
     #intro-section .c100 {
         min-height: 70vh;
     }
-    #resume-section {
+    #experience-section {
         padding-top: 0;
     }
-    #resume-section strong, #resume-section em {
+    #experience-section strong, #experience-section em {
         width: 100%;
         display: block;
         text-align: left;
