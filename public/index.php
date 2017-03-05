@@ -1,11 +1,8 @@
 <?php require("../includes/header.php"); ?>
-
-<div class="row">
-    <div class="small-12 columns">
-
-
-    </div>
-</div>
-
-
+<?php require("about.php"); ?>
+<?php require("projects.php"); ?>
+<?php require("skills.php"); ?>
+<?php require("portfolio.php"); ?>
+<?php require("testimonials.php"); ?>
+<?php require("contact.php"); ?>
 <?php require("../includes/footer.php"); ?>

@@ -57,8 +57,11 @@ function getSubMenuItems(array $subMenuItems){
 ?>
 
 <nav>
-    <ul class="dropdown menu float-right" data-dropdown-menu="dropdown-menu" role="menubar">
-        <?php getMenuItems($menuItems); ?>
-    </ul>
+    <div class="nav-wrapper">
+        <a href="/" class="brand-logo center"><?= $sitetitle; ?></a>
+        <ul id="nav-mobile">
+            <?php getMenuItems($menuItems); ?>
+        </ul>
+    </div>
 </nav>
 

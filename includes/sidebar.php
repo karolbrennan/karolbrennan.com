@@ -1,2 +1,0 @@
-<h3>Sidebar Content</h3>
-<p> Vestibulum at magna nisl. Vivamus placerat ipsum ligula, eu feugiat sapien ullamcorper sit amet. Aenean semper pharetra leo, a fermentum nisl porttitor quis. Donec et volutpat lacus.</p>

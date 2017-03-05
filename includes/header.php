@@ -1,4 +1,4 @@
-<?php $sitetitle = 'Site Title'; ?>
+<?php $sitetitle = 'Karol Brennan'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,21 +6,32 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/g/foundation@6.2.1(foundation.min.css),foundation-icons@3.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:700">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <meta property="og:image" content="/assets/ogimage.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed|Oswald|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <meta property="og:image" content="/assets/images/ogimage.png"/>
 </head>
+<body onscroll="scroll()" class="flow-text">
 
-<header>
+
+
+<header id="header" class="transition">
     <div class="row">
-        <div class="small-12 medium-4 columns">
-            <a href="/"><?= $sitetitle; ?></a>
+        <div class="col s6">
+            <a href=""><img src="/assets/images/kb-white.svg" alt="karolbrennan logo"></a>
         </div>
-        <div class="small-12 medium-8 columns">
-            <?php include("../includes/nav.php"); ?>
+        <div class="col s6">
+
         </div>
     </div>
 </header>
-<section id="content">
+
+<section id="logo">
+    <div class="valign-wrapper">
+        <div class="valign">
+            <div class="logo"><img src="/assets/images/kb-white.svg" alt="karolbrennan logo"></div>
+            <div class="down"><i class="fa fa-chevron-down"></i></div>
+        </div>
+    </div>
+</section>
