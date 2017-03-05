@@ -1,4 +1,4 @@
-<section id="about">
+<section id="about" data-anchor="about"><a id="about"></a>
     <div class="valign-wrapper">
         <div class="valign">
             <div class="container">

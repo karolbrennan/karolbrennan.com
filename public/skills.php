@@ -13,7 +13,7 @@ $tools = [
 ]; ?>
 
 
-<section id="skills" class="relative">
+<section id="skills" class="relative" data-anchor="skills"><a id="skills"></a>
     <div class="container">
         <div class="row">
             <div class="col s12">

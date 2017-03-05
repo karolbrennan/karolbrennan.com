@@ -1,5 +1,5 @@
 
-<section id="testimonials">
+<section id="testimonials" data-anchor="testimonials"><a id="testimonials"></a>
     <div class="container">
         <div class="row">
             <div class="col s12">

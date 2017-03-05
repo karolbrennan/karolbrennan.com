@@ -222,33 +222,33 @@ header img {
 }
 .technology li {
     display: inline-block;
-    margin: 0 0.25rem;
+    margin: 0 0.2rem;
 }
 .technology li img {
     margin: 0 auto;
-    height: 1.5rem !important;
+    height: 1.25rem !important;
     width: auto !important;
 }
 #letsplaybingo {
-    background: url('../images/examples/letsplaybingo.png') center center no-repeat;
+    background: url('../images/projects/letsplaybingo.png') center center no-repeat;
 }
 #cornerstone {
-    background: url('../images/examples/cornerstone.png') center center no-repeat;
+    background: url('../images/projects/cornerstone.png') center center no-repeat;
 }
 #vagrantbox {
-    background: url('../images/examples/vagrantbox.png') center center no-repeat;
+    background: url('../images/projects/vagrantbox.png') center center no-repeat;
 }
 #matkaskitchen {
-    background: url('../images/examples/matkaskitchen.png') center center no-repeat;
+    background: url('../images/projects/matkaskitchen.png') center center no-repeat;
 }
 #inventiongroup {
-    background: url('../images/examples/inventiongroup.png') center center no-repeat;
+    background: url('../images/projects/inventiongroup.png') center center no-repeat;
 }
 #retrogamingzone {
-    background: url('../images/examples/retrogamingzone.png') center center no-repeat;
+    background: url('../images/projects/retrogamingzone.png') center center no-repeat;
 }
 #webdesignbestpractices {
-    background: url('../images/examples/webdesignbestpractices.png') center center no-repeat;
+    background: url('../images/projects/webdesignbestpractices.png') center center no-repeat;
 }
 .portfolio-piece .graphic {
     background-size: contain !important;
@@ -283,9 +283,9 @@ header img {
     line-height: 2.5;
     white-space: nowrap;
     font-weight: 900;
-    font-size: 0.9rem;
+    font-size: 1.25rem;
     text-transform: uppercase;
-    border-radius: 1rem;
+    border-radius: 0.25rem;
 }
 
 /* * * * * * * * * * * Portfolio * * * * * * * * * */
@@ -303,9 +303,153 @@ header img {
     height: 100%;
     z-index: -1;
 }
+#portfolio .portfolio {
+    list-style: none;
+    width: 100%;
+    display: table;
+    margin: 0;
+    padding: 0;
+}
+
+#portfolio .portfolio li {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 20%;
+    margin: -0.26rem -1px;
+    padding: 0;
+    background-size: 200%;
+    background-color: #ffffff;
+    min-height: 25vh;
+    border: 1px solid rgba(0,0,0,0.5);
+    opacity: 0.4;
+}
+#portfolio .portfolio li:hover {
+    background-size: 100%;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.portfolio li:nth-of-type(1) {
+    background: url('../images/portfolio/branding/inventiongroup.jpg') center center no-repeat;
+}
+.portfolio li:nth-of-type(2) {
+    background: url('../images/portfolio/branding/spectrum_logo.png') center center no-repeat;
+}
+.portfolio li:nth-of-type(3) {
+    background: url('../images/portfolio/branding/color_pro_logo.png') center center no-repeat;
+}
+.portfolio li:nth-of-type(4) {
+    background: url('../images/portfolio/branding/dick_hammer_dusty_drawers.png') center center no-repeat;
+}
+.portfolio li:nth-of-type(5) {
+    background: url('../images/portfolio/branding/maple_avenue_logos.jpg') center center no-repeat;
+}
+.portfolio li:nth-of-type(6) {
+    background: url('../images/portfolio/branding/silvertonguepress_fbicon.jpg') center center no-repeat;
+}
+.portfolio li:nth-of-type(7) {
+    background: url('../images/portfolio/illustrations/AdrianaLima14.jpg') center 15% no-repeat;
+}
+.portfolio li:nth-of-type(8) {
+    background: url('../images/portfolio/illustrations/AlysonHannigan.jpg') center center no-repeat;
+}
+.portfolio li:nth-of-type(9) {
+    background: url('../images/portfolio/illustrations/AngelinaJolie1.jpg') center center no-repeat;
+}
+.portfolio li:nth-of-type(10) {
+    background: url('../images/portfolio/illustrations/BritneySpears8.jpg') center 35% no-repeat;
+}
+.portfolio li:nth-of-type(11) {
+    background: url('../images/portfolio/illustrations/LostProphets1.jpg') center center no-repeat;
+}
+.portfolio li:nth-of-type(12) {
+    background: url('../images/portfolio/illustrations/FINAL.png') center center no-repeat;
+    background-color: rgba(0,0,0,0.7) !important;
+}
+.portfolio li:nth-of-type(13) {
+    background: url('../images/portfolio/illustrations/ck.png') center 10% no-repeat;
+}
+.portfolio li:nth-of-type(14) {
+    background: url('../images/portfolio/photography/bear.jpg') center center no-repeat;
+    background-color: rgba(0,0,0,0.7) !important;
+}
+.portfolio li:nth-of-type(15) {
+    background: url('../images/portfolio/photography/daffodil.jpg') center center no-repeat;
+    background-color: rgba(0,0,0,0.7) !important;
+}
+.portfolio li:nth-of-type(16) {
+    background: url('../images/portfolio/photography/field.jpg') center center no-repeat;
+    background-color: rgba(0,0,0,0.7) !important;
+}
+.portfolio li:nth-of-type(17) {
+    background: url('../images/portfolio/photography/jellyfish.jpg') center center no-repeat;
+    background-color: rgba(0,0,0,0.7) !important;
+}
+.portfolio li:nth-of-type(18) {
+    background: url('../images/portfolio/photography/ride.jpg') center center no-repeat;
+    background-color: rgba(0,0,0,0.7) !important;
+}
+.portfolio li:nth-of-type(19) {
+    background: url('../images/portfolio/photography/spider.jpg') center center no-repeat;
+    background-color: rgba(0,0,0,0.7) !important;
+}
+.portfolio li:nth-of-type(20) {
+    background: url('../images/portfolio/photography/cheetah.jpg') center 15% no-repeat;
+    background-color:  rgba(0,0,0,0.7) !important;;
+}
+.portfolio li:nth-of-type(21) {
+    background: url('../images/portfolio/web/EricoMotorsports.png') center top no-repeat;
+    background-color:  rgba(0,0,0,0.7) !important;;
+}
+.portfolio li:nth-of-type(22) {
+    background: url('../images/portfolio/web/JeffJones.jpg') center top no-repeat;
+    background-color:  rgba(0,0,0,0.7) !important;;
+}
+.portfolio li:nth-of-type(23) {
+    background: url('../images/portfolio/web/TheBoatLocker.jpg') center top no-repeat;
+    background-color:  rgba(0,0,0,0.7) !important;;
+}
+.portfolio li:nth-of-type(24) {
+    background: url('../images/portfolio/web/ThunderRoad.png') center top no-repeat;
+    background-color:  rgba(0,0,0,0.7) !important;;
+}
+.portfolio li:nth-of-type(25) {
+    background: url('../images/portfolio/web/weconnect_simple_dark_desktop2.png') center top no-repeat;
+    background-color: rgba(0,0,0,0.7) !important;
+}
 
 
 
+/*.portfolio li:nth-of-type(1) {*/
+    /*background: url('../images/portfolio/') center center no-repeat;*/
+/*}*/
+/*.portfolio li:nth-of-type(2) {*/
+    /*background: url('../images/portfolio/') center center no-repeat;*/
+/*}*/
+/*.portfolio li:nth-of-type(3) {*/
+    /*background: url('../images/portfolio/') center center no-repeat;*/
+/*}*/
+/*.portfolio li:nth-of-type(4) {*/
+    /*background: url('../images/portfolio/') center center no-repeat;*/
+/*}*/
+/*.portfolio li:nth-of-type(5) {*/
+    /*background: url('../images/portfolio/') center center no-repeat;*/
+/*}*/
+/*.portfolio li:nth-of-type(6) {*/
+    /*background: url('../images/portfolio/') center center no-repeat;*/
+/*}*/
+/*.portfolio li:nth-of-type(7) {*/
+    /*background: url('../images/portfolio/') center center no-repeat;*/
+/*}*/
+/*.portfolio li:nth-of-type(8) {*/
+    /*background: url('../images/portfolio/') center center no-repeat;*/
+/*}*/
+/*.portfolio li:nth-of-type(9) {*/
+    /*background: url('../images/portfolio/') center center no-repeat;*/
+/*}*/
+/*.portfolio li:nth-of-type(10) {*/
+    /*background: url('../images/portfolio/') center center no-repeat;*/
+/*}*/
 
 
 /* * * * * * * * * * * Testimonials * * * * * * * * * */
@@ -323,11 +467,108 @@ header img {
 
 
 /* * * * * * * * * * * Contact * * * * * * * * * */
-#contact {
+#contactme {
     background: rgba(40, 156, 106, 0.56);
 }
+#contactform *:focus {
+    outline: none;
+}
+#contactform h6:first-of-type {
+    margin-bottom: 2rem;
+}
+#contactform {
+    z-index: 2;
+    padding: 6rem 3rem;
+    width: 60%;
+    margin: 0 auto;
+    background: white;
+    position: relative;
+    top: -25rem;
+    transform: rotate(7deg);
+    box-shadow: 0.1rem 0.1rem 0.2rem 0 rgba(0,0,0,0.4);
+}
+#contactform label {
+    font-size: 0.8rem;
+    color: #444;
+    text-shadow: none;
+}
+label[for='name'], label[for='email'] {
+    display: inline-block;
+    vertical-align: middle;
+    width: 49%;
+    box-sizing: border-box;
+    margin: 0;
+}
+#contactform input,#contactform textarea {
+    color: #444;
+    font-size: 2rem;
+    border: none;
+}
+#contactform textarea {
+    min-height: 8rem;
+    max-height: 12rem;
+}
+#contactform button {
+    background: rgba(128, 128, 128, 0.34);
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.5em 2em;
+    margin: 0 auto;
+    display: block;
+}
 
+#envelope {
+    width: 80rem;
+    height: 30rem;
+    max-width: 100%;
+    margin: 35rem auto 5rem;
+    position: relative;
+    background: #e46a3a;
+}
+#envelope:before, #envelope:after,
+#envelope-sides:before, #envelope-sides:after {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+#envelope:before {
+    z-index: 1;
+    top: -23rem;
+    border-left: 40rem solid transparent;
+    border-right: 40rem solid transparent;
+    border-bottom: 23rem solid #e46a3a;
+}
+#envelope:after {
+    bottom: 0;
+    border-left: 40rem solid transparent;
+    border-right: 40rem solid transparent;
+    border-bottom: 16rem solid #e29125;
+    z-index: 3;
+}
+#envelope-sides:before {
+    left: 0;
+    top: 0;
+    border-bottom: 15rem solid transparent;
+    border-top: 15rem solid transparent;
+    border-left: 40rem solid #E49B3A;
+    z-index: 1;
+}
+#envelope-sides:after {
+    right: 0;
+    top: 0;
+    border-bottom: 15rem solid transparent;
+    border-top: 15rem solid transparent;
+    border-right: 40rem solid #E49B3A;
+    z-index: 3;
+}
 
+#envelope h6, #envelope .date {
+    color: #444;
+    text-shadow: none;
+}
 
 
 
@@ -416,6 +657,11 @@ img {
 
 
 /* * * * * * * * * * * Responsive Stuff * * * * * * * * * */
+@media only screen and (min-width: 2000px){
+    #about .box {
+        font-size: 2rem;
+    }
+}
 @media only screen and (min-width: 960px) {
     .flow-text {
         font-size: initial;

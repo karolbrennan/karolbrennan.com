@@ -1,5 +1,5 @@
 
-<section id="projects" class="relative">
+<section id="projects" class="relative" data-anchor="projects"><a id="projects"></a>
     <div class="container">
         <div class="row">
             <div class="s12 col">
