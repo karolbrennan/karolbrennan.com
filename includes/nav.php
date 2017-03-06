@@ -4,17 +4,12 @@
  * Values: title, url, submenu (array of more menu items, can be nested)
  */
 $menuItems = [
-    ['title' => 'Home', 'url' => '/'],
-    ['title' => 'About', 'url' => '/about'],
-    [
-        'title' => 'Services',
-        'url' => '/services',
-        'submenu' => [
-            ['title' => 'Stuff', 'url' => '/stuff'],
-            ['title' => 'Things', 'url' => '/things']
-        ]
-    ],
-    ['title' => 'Contact', 'url' => '/contact']
+    ['title' => 'About', 'url' => '#about'],
+    ['title' => 'Projects', 'url' => '#projects'],
+    ['title' => 'Skills', 'url' => '#skills'],
+    ['title' => 'Portfolio', 'url' => '#portfolio'],
+    ['title' => 'Testimonials', 'url' => '#testimonials'],
+    ['title' => 'Contact', 'url' => '#contact'],
 ];
 
 function getMenuItems(array $menuItems){
@@ -42,7 +37,7 @@ function getSubMenuItems(array $subMenuItems){
         $url = $menuItem['url'];
         $title = $menuItem['title'];
 
-        echo "<li class='is-submenu-item is-dropdown-submenu-item" . ((!empty($menuItem['submenu'])) ? ' is-dropdown-submenu-parent' : '') . " {$class}' role='menuitem'>
+        echo "<li class='is-submenu-item is-dropdown-submenu-item" . ((!empty($menuItem['submenu'])) ? ' is-dropdown-submenu-parent' : '') . " {$class}'>
               <a href='{$url}'>{$title}</a>";
         if(!empty($menuItem['submenu'])){
             echo "<ul class='menu submenu " . ((!empty($menuItem['submenu'])) ? 'is-dropdown-submenu' : '') . "' data-submenu role='menu'>";
@@ -56,12 +51,7 @@ function getSubMenuItems(array $subMenuItems){
 
 ?>
 
-<nav>
-    <div class="nav-wrapper">
-        <a href="/" class="brand-logo center"><?= $sitetitle; ?></a>
-        <ul id="nav-mobile">
-            <?php getMenuItems($menuItems); ?>
-        </ul>
-    </div>
-</nav>
+    <ul>
+        <?php getMenuItems($menuItems); ?>
+    </ul>
 

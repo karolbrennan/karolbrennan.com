@@ -32,6 +32,7 @@ a:hover {
 body, p {
     font-family: "Raleway", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-weight: 400;
+    font-size: 1rem;
     color: #efefef;
     text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
     text-rendering: optimizeLegibility;
@@ -77,8 +78,8 @@ section:not(.portfolio-piece) > .valign-wrapper > .valign {
 
 /* * * * * * * * * * * Header * * * * * * * * * */
 header {
-    height: 8vh;
-    padding: 1vh 2rem;
+    height: 10vh;
+    padding: 2vh 2rem;
     visibility: hidden;
     opacity: 0;
     z-index: 1;
@@ -97,14 +98,35 @@ header img {
 
 
 /* * * * * * * * * * * Navigation * * * * * * * * * */
-
+ul#navigation {
+    position: absolute;
+    top: 0;
+    right: 2rem;
+}
+#navigation i, #navigation a {
+    color: #fff;
+}
+#navigation i:hover, #navigation a:hover {
+    color: #289C6A;
+    cursor: pointer;
+}
+#navigation ul {
+    visibility: hidden;
+    opacity: 0;
+}
+#navigation ul.open {
+    visibility: visible;
+    opacity: 1;
+}
+#mainnav a.active {
+    color: #E49B3A;
+}
 
 
 
 /* * * * * * * * * * * Logo Section * * * * * * * * * */
 #logo {
     text-align: center;
-    min-height: 92vh;
     background: transparent;
     padding: 1rem;
 }
@@ -124,7 +146,7 @@ header img {
     height: auto;
 }
 #logo .valign-wrapper {
-    min-height: 90vh;
+    min-height: 88vh;
     text-align: center;
 }
 
@@ -473,24 +495,33 @@ header img {
 #contactform *:focus {
     outline: none;
 }
+#contactform h6, #contactform .date {
+    color: #444;
+    text-shadow: none;
+}
 #contactform h6:first-of-type {
     margin-bottom: 2rem;
 }
 #contactform {
     z-index: 2;
     padding: 6rem 3rem;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     background: white;
     position: relative;
-    top: -25rem;
-    transform: rotate(7deg);
+    top: 2rem;
+    transform: rotate(4deg);
     box-shadow: 0.1rem 0.1rem 0.2rem 0 rgba(0,0,0,0.4);
 }
 #contactform label {
     font-size: 0.8rem;
     color: #444;
     text-shadow: none;
+}
+#contactform label span {
+    opacity: 0;
+    font-size: 0;
+    line-height: 0;
 }
 label[for='name'], label[for='email'] {
     display: inline-block;
@@ -499,10 +530,12 @@ label[for='name'], label[for='email'] {
     box-sizing: border-box;
     margin: 0;
 }
-#contactform input,#contactform textarea {
+#contactform input, #contactform textarea {
     color: #444;
     font-size: 2rem;
     border: none;
+    display: block;
+    width: 100%;
 }
 #contactform textarea {
     min-height: 8rem;
@@ -515,15 +548,16 @@ label[for='name'], label[for='email'] {
     font-weight: bold;
     text-transform: uppercase;
     padding: 0.5em 2em;
-    margin: 0 auto;
+    margin-top: 4rem;
     display: block;
 }
-
+#contactform button:hover {
+    cursor: pointer;
+}
 #envelope {
-    width: 80rem;
-    height: 30rem;
-    max-width: 100%;
-    margin: 35rem auto 5rem;
+    width: 60vw;
+    height: 50vh;
+    margin: -10rem auto 5rem;
     position: relative;
     background: #e46a3a;
 }
@@ -536,40 +570,35 @@ label[for='name'], label[for='email'] {
 }
 #envelope:before {
     z-index: 1;
-    top: -23rem;
-    border-left: 40rem solid transparent;
-    border-right: 40rem solid transparent;
-    border-bottom: 23rem solid #e46a3a;
+    top: -30vh;
+    border-left: 30vw solid transparent;
+    border-right: 30vw solid transparent;
+    border-bottom: 30.25vh solid #e46a3a;
 }
 #envelope:after {
-    bottom: 0;
-    border-left: 40rem solid transparent;
-    border-right: 40rem solid transparent;
-    border-bottom: 16rem solid #e29125;
     z-index: 3;
+    bottom: 0;
+    border-left: 30vw solid transparent;
+    border-right: 30vw solid transparent;
+    border-bottom: 26vh solid #e29125;
+}
+
+#envelope-sides:before,
+#envelope-sides:after {
+    bottom: 0;
+    border-bottom: 25vh solid transparent;
+    border-top: 23vh solid transparent;
 }
 #envelope-sides:before {
-    left: 0;
-    top: 0;
-    border-bottom: 15rem solid transparent;
-    border-top: 15rem solid transparent;
-    border-left: 40rem solid #E49B3A;
     z-index: 1;
+    left: 0;
+    border-left: 30vw solid #E49B3A;
 }
 #envelope-sides:after {
-    right: 0;
-    top: 0;
-    border-bottom: 15rem solid transparent;
-    border-top: 15rem solid transparent;
-    border-right: 40rem solid #E49B3A;
     z-index: 3;
+    right: 0;
+    border-right: 30vw solid #E49B3A;
 }
-
-#envelope h6, #envelope .date {
-    color: #444;
-    text-shadow: none;
-}
-
 
 
 
@@ -657,18 +686,8 @@ img {
 
 
 /* * * * * * * * * * * Responsive Stuff * * * * * * * * * */
-@media only screen and (min-width: 2000px){
-    #about .box {
-        font-size: 2rem;
-    }
-}
-@media only screen and (min-width: 960px) {
-    .flow-text {
-        font-size: initial;
-    }
-}
 
-@media screen and (max-width: 40em){
+@media screen and (max-width: 500px){
     h1 {
         font-size: 3rem;
     }
