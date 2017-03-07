@@ -10,17 +10,17 @@
                 </div>
 
                 <div class="row">
-                    <div class="s12 m3 col">
+                    <div class="s12 m6 l3 col">
                         <div class="box">
                             <i class="fa fa-female"></i>
                             <p>
                                 <strong>Karol Brennan</strong><br>
-                                Web Designer / Web Developer<br>
+                                Web Designer / Developer<br>
                                 SE Wisconsin<br>
                             </p>
                         </div>
                     </div>
-                    <div class="s12 m3 col">
+                    <div class="s12 m6 l3 col">
                         <div class="box">
                             <i class="fa fa-graduation-cap"></i>
                             <p><strong>WCTC</strong><br>
@@ -29,7 +29,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="s12 m3 col">
+                    <div class="s12 m6 l3 col">
                         <div class="box">
                             <i class="fa fa-building-o"></i>
                             <p><strong>IFEBP</strong><br>
@@ -38,12 +38,12 @@
                             </p>
                         </div>
                     </div>
-                    <div class="s12 m3 col">
+                    <div class="s12 m6 l3 col">
                         <div class="box">
                             <i class="fa fa-address-card-o"></i>
                             <p><strong>Contact Me</strong><br>
                                 <i class="fa fa-twitter"></i> codemasterkarol<br>
-                                <i class="fa fa-envelope-o"></i> codemasterkarol@gmail.com
+                                <i class="fa fa-envelope-o"></i> kb@karol.codes
                             </p>
                         </div>
                     </div>

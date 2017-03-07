@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed|Oswald|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <meta property="og:image" content="/assets/images/ogimage.png"/>
+<!--    <meta property="og:image" content="/assets/images/ogimage.png"/>-->
 </head>
 <body class="flow-text">
 
