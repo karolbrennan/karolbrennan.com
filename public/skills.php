@@ -21,21 +21,22 @@ $tools = [
             </div>
         </div>
         <div class="row">
-            <div class="col s12 m6 hide-on-small-only"></div>
             <div class="col s12 m6">
                 <?php echo "<h3>Languages</h3><p>";
                 foreach($languages as $language){
                     echo "<span>{$language}</span> ";
                 }
                 echo "</p>"; ?>
-                <?php echo "<h3>Tools &amp; Platforms</h3><p>";
-                foreach($tools as $tool){
-                    echo "<span>{$tool}</span> ";
-                }
-                echo "</p>"; ?>
                 <?php echo "<h3>Frameworks</h3><p>";
                 foreach($frameworks as $framework){
                     echo "<span>{$framework}</span> ";
+                }
+                echo "</p>"; ?>
+            </div>
+            <div class="col s12 m6">
+                <?php echo "<h3>Tools &amp; Platforms</h3><p>";
+                foreach($tools as $tool){
+                    echo "<span>{$tool}</span> ";
                 }
                 echo "</p>"; ?>
             </div>

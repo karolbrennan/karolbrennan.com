@@ -40,6 +40,32 @@
             </div>
         </div>
 
+        <div class="row">
+            <div class="col s12">
+                <h3>Web</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12"><div id="marinecollection" class="h60 portfoliopiece cover transition"></div></div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6"><div id="crossroads" class="h40 portfoliopiece cover transition"></div></div>
+            <div class="col s12 m6"><div id="invention" class="h40 portfoliopiece cover transition"></div></div>
+        </div>
+        <div class="row">
+            <div class="col s12 m8">
+                <div id="thunderroad" class="h50 portfoliopiece cover transition"></div>
+                <div id="boatlocker" class="h50 portfoliopiece cover transition"></div>
+            </div>
+            <div class="col s12 m4">
+                <div id="weconnect" class="h100 portfoliopiece cover transition"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6"><div id="jeffjones" class="h50 portfoliopiece cover transition"></div></div>
+            <div class="col s12 m6"><div id="erico" class="h50 portfoliopiece cover transition"></div></div>
+        </div>
 
         <div class="row">
             <div class="col s12">
@@ -78,22 +104,6 @@
             </div>
         </div>
 
-
-        <div class="row">
-            <div class="col s12">
-                <h3>Web</h3>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col s8">
-                <div id="thunderroad" class="h40 portfoliopiece cover transition"></div>
-                <div id="boatlocker" class="h40 portfoliopiece cover transition"></div>
-            </div>
-            <div class="col s4">
-                <div id="weconnect" class="h80 portfoliopiece cover transition"></div>
-            </div>
-        </div>
 
     </div>
 </section>

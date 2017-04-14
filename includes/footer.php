@@ -1,5 +1,14 @@
 <footer>
     <div class="row">
+        <div class="col s12 m4">
+        </div>
+        <div class="col s12 m4">
+        </div>
+        <div class="col s12 m4">
+        </div>
+    </div>
+
+    <div class="row">
         <div class="col s12 m6">
             <p><a href="/"><?= $sitetitle; ?></a></p>
         </div>

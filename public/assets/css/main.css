@@ -94,14 +94,15 @@ header.fixed {
 header img {
     height: 6vh;
     width: auto;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 0.5rem;
 }
 
 
 /* * * * * * * * * * * Navigation * * * * * * * * * */
 ul#navigation {
-    position: absolute;
-    top: 0;
-    right: 2rem;
+    margin: 0;
+    padding: 0.75rem 0.5rem;
 }
 #navigation i, #navigation a {
     color: #fff;
@@ -218,13 +219,18 @@ ul#navigation {
 #projects h2 {
     text-align: right;
 }
-.portfolio-piece {
+.portfolio-piece .row {
     padding: 0;
     background: rgba(16, 16, 16, 0.9);
     color: rgba(0,0,0,0.6);
+    margin-bottom: 1rem !important;
 }
-.portfolio-piece .col {
-    min-height: 22rem;
+.portfolio-piece .graphic {
+    background-size: contain !important;
+    width: 30%;
+    float: right;
+    min-height: 7rem;
+    margin-left: 1rem;
 }
 .portfolio-piece .description {
     padding: 2rem;
@@ -304,7 +310,7 @@ ul#navigation {
     line-height: 2.5;
     white-space: nowrap;
     font-weight: 900;
-    font-size: 1.25rem;
+    font-size: 1rem;
     text-transform: uppercase;
     border-radius: 0.25rem;
 }
@@ -350,6 +356,8 @@ ul#navigation {
 .h80 { height: 80vh; }
 .h85 { height: 85vh; }
 .h90 { height: 90vh; }
+.h95 { height: 95vh; }
+.h100 { height: 100vh; }
 
 #portfolio .col {
     margin: 0;
@@ -378,7 +386,7 @@ ul#navigation {
 
 /** Sites **/
 .portfoliopiece#weconnect {
-    background: url('../images/portfolio/web/weconnect_simple_dark_desktop2.png') center top no-repeat;  }
+    background: url('../images/portfolio/web/simple-blue.png') center top no-repeat;  }
 .portfoliopiece#thunderroad {
     background: url('../images/portfolio/web/ThunderRoad.png') center top no-repeat;  }
 .portfoliopiece#erico {
@@ -387,6 +395,14 @@ ul#navigation {
     background: url('../images/portfolio/web/JeffJones.jpg') center top no-repeat;}
 .portfoliopiece#boatlocker {
     background: url('../images/portfolio/web/TheBoatLocker.jpg') center top no-repeat;}
+.portfoliopiece#marinecollection {
+    background: url('../images/portfolio/web/MarineCollection.png') center top no-repeat;}
+.portfoliopiece#crossroads {
+    background: url('../images/portfolio/web/CrossroadPowersports.jpg') center top no-repeat;}
+.portfoliopiece#cornerstone {
+    background: url('../images/portfolio/web/cornerstone_mobile.jpg') center top no-repeat;}
+.portfoliopiece#invention {
+    background: url('../images/portfolio/web/inventiongroup.jpg') center top no-repeat;}
 
 /** Illustrations **/
 .portfoliopiece#ck {
@@ -592,6 +608,13 @@ footer a {
 footer a:hover {
     color: #ffffff;
 }
+.github-widget {
+    border: none;
+    width: 100%;
+    max-width: 100%;
+    font-size: 1rem;
+    padding: 1rem;
+}
 
 
 
@@ -693,5 +716,46 @@ img {
         display: block;
         width: 100%;
         margin-bottom: 1em;
+    }
+    #navigation ul {
+        position: absolute;
+        right: 0;
+        top: 4rem;
+        width: 100%;
+        text-align: center;
+        background: rgba(0,0,0,0.8);
+        padding: 5vh 1rem;
+        z-index: 999 !important;
+        display: block;
+    }
+    #navigation ul li {
+        padding: 0.25em 0.5em;
+    }
+}
+@media screen and (max-width: 800px){
+
+    #envelope {
+        display: none;
+    }
+    #contactform {
+        transform: rotate(0);
+        width: 100%;
+        z-index: auto;
+    }
+    #contactform .date {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .box i:first-child {
+        width: 3rem;
+    }
+    .box i:first-child, .box p {
+        display: inline-block !important;
+        vertical-align: middle;
+        margin: 0 1rem;
+    }
+    h2 {
+        font-size: 2rem;
     }
 }
