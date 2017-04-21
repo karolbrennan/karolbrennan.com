@@ -7,16 +7,16 @@ $frameworks = [
     'Nova (Simple MVC) Framework', 'Zend Framework 1'
 ];
 $tools = [
-    'Sharepoint Designer', 'Git', 'Subversion', 'Vagrant', 'Ansible',
+    'Git', 'Subversion', 'Vagrant', 'Ansible',
     'MySQL Workbench', 'WordPress', 'SMACSS',
     'LAMP Stack', 'Agile / Scrum Development'
 ]; ?>
 
 
-<section id="skills" class="relative" data-anchor="skills"><a id="skills"></a>
+<section id="skills" class="relative" data-anchor="skills">
     <div class="container">
         <div class="row">
-            <div class="col s12">
+            <div class="col s12"><a id="skills"></a>
                 <h2>Stuff I Know</h2>
             </div>
         </div>

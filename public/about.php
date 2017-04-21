@@ -1,10 +1,10 @@
-<section id="about" data-anchor="about"><a id="about"></a>
+<section id="about" data-anchor="about">
     <div class="valign-wrapper">
         <div class="valign">
             <div class="container">
                 <div class="row">
                     <div class="s12 col">
-                        <h1>Hello.</h1>
+                        <h1>Hello.</h1><a id="about"></a>
                         <h2>My name is Karol Brennan and I like to code my face off.</h2>
                     </div>
                 </div>

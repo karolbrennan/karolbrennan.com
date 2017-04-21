@@ -1,9 +1,9 @@
 
-<section id="projects" class="relative" data-anchor="projects"><a id="projects"></a>
+<section id="projects" class="relative" data-anchor="projects">
     <div class="container">
         <div class="row">
             <div class="s12 col">
-                <h2>Current Projects</h2>
+                <h2>Current Projects</h2><a id="projects"></a>
             </div>
         </div>
         <div class="portfolio-piece">

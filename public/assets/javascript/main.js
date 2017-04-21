@@ -1,4 +1,6 @@
 $('#mainnav a').on('click', function() {
+    $('#mainnav a.active').removeClass('active');
+    $(this).addClass('active');
     var scrollAnchor = $(this).attr('data-scroll'),
         scrollPoint = $('section[data-anchor="' + scrollAnchor + '"]').offset().top;
 
@@ -23,14 +25,13 @@ $(window).scroll(function() {
     var windscroll = $(window).scrollTop();
     if (windscroll >= 1) {
         $('section').each(function(i) {
-            if ($(this).position().top <= windscroll) {
+            if ($(this).position().top <= windscroll +20) {
                 $('#mainnav a.active').removeClass('active');
                 if(i-1 >= 0) {
                     $('#mainnav a').eq(i - 1).addClass('active');
                 }
             }
         });
-
     } else {
         $('#mainnav a.active').removeClass('active');
     }

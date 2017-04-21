@@ -1,9 +1,9 @@
 
-<section id="portfolio" class="relative" data-anchor="portfolio"><a id="portfolio"></a>
+<section id="portfolio" class="relative" data-anchor="portfolio">
     <div class="container">
         <div class="row">
             <div class="col s12">
-                <h2>Portfolio</h2>
+                <h2>Portfolio</h2><a id="portfolio"></a>
             </div>
         </div>
 

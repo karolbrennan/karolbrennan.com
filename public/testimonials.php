@@ -1,9 +1,8 @@
-
-<section id="testimonials" data-anchor="testimonials"><a id="testimonials"></a>
+<section id="testimonials" data-anchor="testimonials">
     <div class="container">
         <div class="row">
             <div class="col s12">
-                <h2>What People Are Saying About Me</h2>
+                <h2>What People Are Saying About Me</h2><a id="testimonials"></a>
             </div>
         </div>
         <div class="row">

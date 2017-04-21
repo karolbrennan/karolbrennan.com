@@ -77,19 +77,11 @@ section:not(.portfolio-piece) > .valign-wrapper > .valign {
 
 
 /* * * * * * * * * * * Header * * * * * * * * * */
-header {
-    height: 10vh;
-    padding: 2vh 2rem;
-    visibility: hidden;
-    opacity: 0;
-    z-index: 1;
-}
 header.fixed {
-    visibility: visible;
-    opacity: 1;
     position: fixed;
     top: 0; left: 0;
     width: 100%;
+    z-index: 1;
 }
 header img {
     height: 6vh;
