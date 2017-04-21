@@ -48,6 +48,15 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="s12 m6 col">
+                        <p><a href="http://karolbrennan.com/assets/KarolBrennan-Resume2017.pdf" class="transition">Download my Resumé!</a></p>
+                    </div>
+                    <div class="s12 m6 col">
+                        <p><a href="http://karol.codes" class="transition">Check out my GitHub!</a></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

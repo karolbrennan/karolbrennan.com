@@ -27,6 +27,7 @@ a {
     font-weight: 900;
 }
 a:hover {
+    cursor: pointer;
     color: #E49B3A;
 }
 body, p {
@@ -175,6 +176,17 @@ ul#navigation {
     font-size: 0.8rem;
     color: #7d7a6a;
     text-shadow: 1px 1px 0 rgba(0,0,0,0.8);
+}
+#about p a {
+    font-size: 1.25rem;
+    text-align: center;
+    display: block;
+    color: white;
+    padding: 0.5em;
+    background: rgba(40, 156, 106, 0.27);
+}
+#about p a:hover {
+    background: rgba(40, 156, 106, 0.6);
 }
 #about strong {
     color: white;
