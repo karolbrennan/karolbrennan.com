@@ -21,6 +21,17 @@ $('#logolink').on('click', function() {
     return false;
 });
 
+$('#contactlink').on('click', function() {
+    var scrollAnchor = $(this).attr('data-scroll'),
+        scrollPoint = $('section[data-anchor="' + scrollAnchor + '"]').offset().top;
+
+    $('body,html').animate({
+        scrollTop: scrollPoint
+    }, 500);
+
+    return false;
+});
+
 $(window).scroll(function() {
     var windscroll = $(window).scrollTop();
     if (windscroll >= 1) {

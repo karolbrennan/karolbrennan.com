@@ -156,14 +156,18 @@ ul#navigation {
     margin-bottom: 1rem;
 }
 #about h2 {
-    font-size: 2rem;
+    font-size: 2.75rem;
     margin-bottom: 2rem;
+}
+#about .intro p {
+    font-size: 1.25rem;
+    color: #b3b3b3;
 }
 #about .box {
     padding: 2rem 1rem;
     margin: 0.75rem 0;
 }
-#about i:first-child {
+#about .box > i {
     color: #E49B3A;
     font-size: 3rem;
     display: block;
@@ -172,12 +176,15 @@ ul#navigation {
 #about p i {
     margin-right: 0.5em;
 }
+a .fa-twitter {
+    color: rgb(18, 164, 255);
+}
 #about p {
     font-size: 0.8rem;
     color: #7d7a6a;
     text-shadow: 1px 1px 0 rgba(0,0,0,0.8);
 }
-#about p a {
+#about .cta {
     font-size: 1.25rem;
     text-align: center;
     display: block;
@@ -185,7 +192,7 @@ ul#navigation {
     padding: 0.5em;
     background: rgba(40, 156, 106, 0.27);
 }
-#about p a:hover {
+#about .cta:hover {
     background: rgba(40, 156, 106, 0.6);
 }
 #about strong {
