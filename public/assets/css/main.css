@@ -95,7 +95,7 @@ header img {
 /* * * * * * * * * * * Navigation * * * * * * * * * */
 ul#navigation {
     margin: 0;
-    padding: 0.75rem 0.5rem;
+    padding: 0.25rem 0.5rem;
 }
 #navigation i, #navigation a {
     color: #fff;
@@ -497,6 +497,10 @@ a .fa-twitter {
 /* * * * * * * * * * * Contact * * * * * * * * * */
 #contactme {
     background: rgba(40, 156, 106, 0.56);
+    min-height: 175vh;
+}
+#contactme {
+    position: relative;
 }
 #contactform *:focus {
     outline: none;
@@ -508,16 +512,43 @@ a .fa-twitter {
 #contactform h6:first-of-type {
     margin-bottom: 2rem;
 }
+#contactform, #envelope {
+    transition: all ease 1s;
+}
 #contactform {
-    z-index: 2;
+    z-index: 3;
     padding: 6rem 3rem;
-    width: 70%;
+    width: 58vw;
+    height: 90vh;
     margin: 0 auto;
     background: white;
-    position: relative;
-    top: 2rem;
+    position: absolute;
+    overflow: hidden;
+    bottom: 38vh;
     transform: rotate(4deg);
     box-shadow: 0.1rem 0.1rem 0.2rem 0 rgba(0,0,0,0.4);
+    transition: bottom ease 1s 4s, margin-top ease 1s 4s,
+                margin-bottom ease 1s 4s, margin-left ease 1s,
+                height ease 2s 0s, z-index ease 0s 3s, transform ease 4s 0s;
+}
+#contactform:hover {
+    transform: rotate(0deg);
+    bottom: 0;
+    margin-bottom: 30vh;
+    margin-left: 1vw;
+    z-index: 2;
+    height: 4vh;
+    margin-top: 4vh;
+    transition: bottom ease 1s 3s, margin-top ease 1s 0s,
+                margin-bottom ease 1s 0s, z-index ease 0s 0s,
+                height ease 2s 4s, transform ease 4s 0s;
+}
+#envelope-sides:before {
+    transition: z-index ease 0s 3s;
+}
+#contactform:hover + #envelope #envelope-sides:before {
+    z-index: 2;
+    transition: z-index ease 0s 0s;
 }
 #contactform label {
     font-size: 0.8rem;
@@ -563,9 +594,10 @@ label[for='name'], label[for='email'] {
 #envelope {
     width: 60vw;
     height: 50vh;
-    margin: -10rem auto 5rem;
-    position: relative;
-    background: #e46a3a;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 10vh;
+    background: #CD6235;
 }
 #envelope:before, #envelope:after,
 #envelope-sides:before, #envelope-sides:after {
@@ -574,31 +606,48 @@ label[for='name'], label[for='email'] {
     height: 0;
     position: absolute;
 }
+/*#contactform { display: none;}*/
 #envelope:before {
-    z-index: 1;
-    top: -30vh;
+    position: relative;
+    z-index: 0;
+    top: -35vh;
     border-left: 30vw solid transparent;
     border-right: 30vw solid transparent;
-    border-bottom: 30.25vh solid #e46a3a;
+    border-bottom: 30vh solid #cd6235;
+    transition: z-index ease 0s 0s;
+}
+#contactform:hover + #envelope:before {
+    transform: rotateX(180deg);
+    z-index: 9;
+    transition: z-index ease 0s 6s;
+    /*top: 0;*/
+    /*border-bottom: none;*/
+    /*border-top: 30vh solid #e46a3a;*/
+    /*border-bottom: 35vh solid #e46a3a;*/
+    /*transition: z-index ease 0s 6s, top ease 1s 4s;*/
 }
 #envelope:after {
-    z-index: 3;
+    z-index: 4;
     bottom: 0;
     border-left: 30vw solid transparent;
     border-right: 30vw solid transparent;
-    border-bottom: 26vh solid #e29125;
+    border-bottom: 30vh solid #e46a3a;
 }
 
 #envelope-sides:before,
 #envelope-sides:after {
-    bottom: 0;
+    top: 0;
     border-bottom: 25vh solid transparent;
-    border-top: 23vh solid transparent;
+    border-top: 25vh solid transparent;
+    transition: z-index ease 0s 0s;
 }
 #envelope-sides:before {
     z-index: 1;
     left: 0;
     border-left: 30vw solid #E49B3A;
+}
+#contactform:hover + #envelope #envelope-sides:before {
+    transition: z-index ease 0s 2s;
 }
 #envelope-sides:after {
     z-index: 3;
