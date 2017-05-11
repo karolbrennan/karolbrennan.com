@@ -4,6 +4,7 @@
         <div class="row">
             <div class="col s12">
                 <h2>Portfolio</h2><a id="portfolio"></a>
+                <p>More pieces as well as samples of documentation and project planning available on my <a href="http://github.com/codemasterkarol/portfolio">GitHub Portfolio Repo</a>.</p>
             </div>
         </div>
 
