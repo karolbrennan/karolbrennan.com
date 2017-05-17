@@ -8,7 +8,7 @@
         </div>
         <div class="portfolio-piece">
             <div class="row">
-                <div class="col s12 details transition">
+                <div class="col s12 m6 details transition">
                     <div class="description">
                         <h3>Let's Play Bingo! <span class="date">2017</span></h3>
                         <p class="links">
@@ -26,32 +26,7 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-
-
-            <div class="row">
-                <div class="col s12 details transition">
-                    <div class="description">
-                        <h3>Cornerstone Hosting <span class="date">2016</span></h3>
-                        <p class="links">
-                            <a href="http://cornerstone.host">cornerstone.host</a> | <a href="http://github.com/codemasterkarol/cornerstone">source code</a>
-                        </p>
-                        <div class="graphic transition" id="cornerstone"></div>
-                        <p class="italic"><strong class="italic">About The Project: </strong> I needed a central hub for hosting my various projects, so I decided to purchase reseller hosting so I could have individual control panels for each domain. Rather than sticking it all under one of my random sites, I created Cornerstone.</p>
-                        <ul class="technology">
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>JavaScript</li>
-                            <li>FoundationCSS</li>
-                            <li>PHP</li>
-                            <li>git</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col s12 details transition">
+                <div class="col s12 m6 details transition">
                     <div class="description">
                         <h3>Web Design Best Practices <span class="date">2016</span></h3>
                         <p class="links">
@@ -65,28 +40,6 @@
                             <li>jQuery</li>
                             <li>FoundationCSS</li>
                             <li>PHP</li>
-                            <li>git</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col s12 details transition">
-                    <div class="description">
-                        <h3>The Invention Group <span class="date">2016</span></h3>
-                        <p class="links">
-                            <a href="http://invention.karolbrennan.com">invention.karolbrennan.com</a> | <a href="http://github.com/codemasterkarol/theinventiongroup">source code</a>
-                        </p>
-                        <div class="graphic transition" id="inventiongroup"></div>
-                        <p class="italic"><strong class="italic">About The Project: </strong> This was a capstone project for a mock client. The idea behind the website was a marketing group that would help bring an inventor's ideas to market. There needed to be an authentication system for a user to log in and submit their ideas.</p>
-                        <ul class="technology">
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>jQuery</li>
-                            <li>FoundationCSS</li>
-                            <li>PHP</li>
-                            <li>MySQL</li>
                             <li>git</li>
                         </ul>
                     </div>
@@ -118,7 +71,25 @@
             </div>
 
             <div class="row">
-                <div class="col s12 details transition">
+                <div class="col s12 m6 details transition">
+                    <div class="description">
+                        <h3>Cornerstone Hosting <span class="date">2016</span></h3>
+                        <p class="links">
+                            <a href="http://cornerstone.host">cornerstone.host</a> | <a href="http://github.com/codemasterkarol/cornerstone">source code</a>
+                        </p>
+                        <div class="graphic transition" id="cornerstone"></div>
+                        <p class="italic"><strong class="italic">About The Project: </strong> I needed a central hub for hosting my various projects, so I decided to purchase reseller hosting so I could have individual control panels for each domain. Rather than sticking it all under one of my random sites, I created Cornerstone.</p>
+                        <ul class="technology">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>FoundationCSS</li>
+                            <li>PHP</li>
+                            <li>git</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col s12 m6 details transition">
                     <div class="description">
                         <h3>Matka's Kitchen <span class="date">2015</span></h3>
                         <p class="links">
@@ -134,27 +105,6 @@
                             <li>PHP</li>
                             <li>MySQL</li>
                             <li>git</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col s12 details transition">
-                    <div class="description">
-                        <h3>Retro Gaming Zone <span class="date">2014</span></h3>
-                        <p class="links">
-                            <a href="http://retrogaming.zone">retrogaming.zone</a> | <a href="http://github.com/codemasterkarol/retrogamingzone">source code</a>
-                        </p>
-                        <div class="graphic transition" id="retrogamingzone"></div>
-                        <p class="italic"><strong class="italic">About The Project: </strong> As an avid gamer I have kept all of my original gaming consoles and wanted a way to keep track of my collection, so I created Retro Gaming Zone as a means to do just that. With this site I created a scraper that pulled game data off of a public gaming database which is the first time I've attempted something like that.</p>
-                        <ul class="technology">
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>jQuery</li>
-                            <li>FoundationCSS</li>
-                            <li>PHP</li>
-                            <li>MySQL</li>
                         </ul>
                     </div>
                 </div>

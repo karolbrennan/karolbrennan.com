@@ -28,7 +28,6 @@
                     <li><a href="#projects" data-scroll="projects">Projects</a></li>
                     <li><a href="#skills" data-scroll="skills">Skills</a></li>
                     <li><a href="#portfolio" data-scroll="portfolio">Portfolio</a></li>
-                    <li><a href="#testimonials" data-scroll="testimonials">Testimonials</a></li>
                     <li><a href="#contact" data-scroll="contact">Contact</a></li>
                 </ul>
             </li>

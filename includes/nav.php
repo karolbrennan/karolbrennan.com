@@ -8,7 +8,6 @@ $menuItems = [
     ['title' => 'Projects', 'url' => '#projects'],
     ['title' => 'Skills', 'url' => '#skills'],
     ['title' => 'Portfolio', 'url' => '#portfolio'],
-    ['title' => 'Testimonials', 'url' => '#testimonials'],
     ['title' => 'Contact', 'url' => '#contact'],
 ];
 
@@ -50,7 +49,6 @@ function getSubMenuItems(array $subMenuItems){
 
 
 ?>
-
     <ul>
         <?php getMenuItems($menuItems); ?>
     </ul>

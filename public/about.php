@@ -3,64 +3,42 @@
         <div class="valign">
             <div class="container">
                 <div class="row">
-                    <div class="s12 col intro">
-                        <h1>Hello.</h1><a id="about"></a>
-                        <h2>My name is Karol Brennan and I like to code my face off.</h2>
-
+                    <div class="s12 col">
+                        <img src="/assets/images/_profile.jpg" alt="That's my face!" id="profile">
+                        <div class="headings">
+                            <h1>Hello.</h1><a id="about"></a>
+                            <h2>I'm Karol Brennan, and I like to code my face off.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="s12 m7 col intro">
                         <p>I am a driven and versatile web professional with experience ranging from front-end design/development
                             utilizing semantic HTML, fully responsive CSS and JavaScript to full LAMP stack PHP development.</p>
-                        <p>It is my goal to provide users with applications that just <strong>work</strong> through clean, quality
-                            code and beautiful, pixel-perfect user experiences.</p>
+                        <p>I've been building websites since 1996 when CSS was first released. I <em>literally</em>
+                            grew up in this industry and have evolved right along side it.</p>
+                        <p>A total geek at heart, this has always been my passion and I would love to share it with you by
+                            creating a web presence that works for your company and vision.</p>
+                        <p>It is my goal to provide clients with sites and applications that meet their needs through clean, quality
+                            code, and beautiful, pixel-perfect user experiences.</p>
                         <p><a href="#contact" id="contactlink" data-scroll="contact">Contact me</a> if you're interested in working together!</p>
-
+                    </div>
+                    <div class="s12 m5 col">
+                        <h3>What Can I Do For You?</h3>
+                        <ul class="doit">
+                            <li>Branding and Graphics Creation <em>Including freshening up your existing branding!</em></li>
+                            <li>Responsive Website Development <em>Guaranteed to work on all browsers and devices!</em></li>
+                            <li>Content Management System Installation <em>Manage your own content!</em></li>
+                            <li>Website Redesign <em>Give your site a face lift!</em></li>
+                            <li>Search Engine Optimization (SEO) Services <em>Let's boost your Google ranking!</em></li>
+                            <li>Consulting services <em>Let me know how I can help!</em></li>
+                        </ul>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="s12 m6 l3 col">
-                        <div class="box">
-                            <i class="fa fa-female"></i>
-                            <p>
-                                <strong>Karol Brennan</strong><br>
-                                Web Designer / Developer<br>
-                                SE Wisconsin<br>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="s12 m6 l3 col">
-                        <div class="box">
-                            <i class="fa fa-graduation-cap"></i>
-                            <p><strong>WCTC</strong><br>
-                                Associates of Applied Science<br>
-                                Web &amp; Digital Media Design
-                            </p>
-                        </div>
-                    </div>
-                    <div class="s12 m6 l3 col">
-                        <div class="box">
-                            <i class="fa fa-building-o"></i>
-                            <p><strong>IFEBP</strong><br>
-                                Web Designer<br>
-                                Feb 2017 - Current
-                            </p>
-                        </div>
-                    </div>
-                    <div class="s12 m6 l3 col">
-                        <div class="box">
-                            <i class="fa fa-address-card-o"></i>
-                            <p><strong>Contact Me</strong><br>
-                                <a href="http://twitter.com/codemasterkarol"><i class="fa fa-twitter"></i></a> codemasterkarol<br>
-                                <i class="fa fa-envelope-o"></i> kb@karol.codes
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="s12 m6 col">
+                    <div class="s12 col">
                         <p><a href="http://karolbrennan.com/assets/KarolBrennan-Resume2017.pdf" class="transition cta">Download my Resumé!</a></p>
-                    </div>
-                    <div class="s12 m6 col">
                         <p><a href="http://karol.codes" class="transition cta">Check out my GitHub!</a></p>
                     </div>
                 </div>

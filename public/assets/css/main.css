@@ -62,15 +62,15 @@ header, footer, section {
     padding: 1rem;
 }
 section {
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.6);
 }
-section:not(.portfolio-piece) {
+section {
     padding: 7rem 1rem;
 }
-section:not(.portfolio-piece) > .valign-wrapper {
+section > .valign-wrapper {
     /*min-height: 100vh;*/
 }
-section:not(.portfolio-piece) > .valign-wrapper > .valign {
+section > .valign-wrapper > .valign {
     width: 100%;
     margin: 0 auto;
 }
@@ -152,14 +152,55 @@ ul#navigation {
 }
 #about h1 {
     margin-bottom: 1rem;
+    width: auto;
 }
 #about h2 {
-    font-size: 2.75rem;
+    font-size: 3.25rem;
     margin-bottom: 2rem;
+    color: #e49b3a;
+    width: auto;
 }
+#profile, .headings {
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.headings {
+    width: 75%;
+    margin-left: 4%;
+}
+img#profile {
+    border-radius: 100%;
+    width: 20%;
+    box-shadow: 0 0 0 0.5em white;
+    filter: grayscale(100%);
+    transform: rotate(-20deg);
+}
+
 #about .intro p {
     font-size: 1.25rem;
     color: #b3b3b3;
+}
+#about .intro p:first-of-type {
+    margin-top: 0;
+}
+ul.doit li {
+    color: white;
+    margin: 0.5em;
+}
+.doit li:before {
+    content: '+';
+    margin-right: 0.5em;
+    font-size: 2rem;
+    vertical-align: middle;
+    line-height: 1;
+    color: #e49b3a;
+}
+.doit li em {
+    display: block;
+    margin-left: 2rem;
+    color: rgba(245, 173, 40, 0.63);
+    font-size: 0.9em;
 }
 #about .box {
     padding: 2rem 1rem;
@@ -171,25 +212,15 @@ ul#navigation {
     display: block;
     text-align: center;
 }
-#about p i {
+#about .box p i {
     margin-right: 0.5em;
 }
-#about p {
+#about .box p {
     font-size: 0.8rem;
     color: #7d7a6a;
     text-shadow: 1px 1px 0 rgba(0,0,0,0.8);
 }
-#about .cta {
-    font-size: 1.25rem;
-    text-align: center;
-    display: block;
-    color: white;
-    padding: 0.5em;
-    background: rgba(40, 156, 106, 0.27);
-}
-#about .cta:hover {
-    background: rgba(40, 156, 106, 0.6);
-}
+
 #about strong {
     color: white;
     font-size: 1rem;
@@ -197,10 +228,10 @@ ul#navigation {
 }
 
 /* * * * * * * * * * * Portfolio Pieces * * * * * * * * * */
-#projects {
+#work {
     background: rgba(0,0,0,0.8);
 }
-#projects:before {
+#work:before {
     display: block;
     content: '';
     background: rgba(40, 156, 106, 0.56);
@@ -211,7 +242,7 @@ ul#navigation {
     width: 50%;
     z-index: -1;
 }
-#projects:after {
+#work:after {
     display: block;
     content: '';
     background: rgba(40, 156, 106, 0.56);
@@ -222,9 +253,10 @@ ul#navigation {
     width: 50%;
     z-index: -1;
 }
-#projects h2 {
+#work h2 {
     text-align: right;
 }
+
 .portfolio-piece .row {
     padding: 0;
     background: rgba(16, 16, 16, 0.9);
@@ -262,30 +294,42 @@ ul#navigation {
     margin: 0 0.2rem;
     padding: 0.25em 0.5em;
 }
-#letsplaybingo {
-    background: url('../images/projects/letsplaybingo.png') center center no-repeat;
+.row.collapse {
+    margin-bottom: 0;
 }
-#cornerstone {
-    background: url('../images/projects/cornerstone.png') center center no-repeat;
+.workpiece {
+    height: 50vh;
+    background-size: cover !important;
 }
-#vagrantbox {
-    background: url('../images/projects/vagrantbox.png') center center no-repeat;
+#logo-colorpro {
+    background: url('../images/work/logo_colorpro.png') center center no-repeat;
 }
-#matkaskitchen {
-    background: url('../images/projects/matkaskitchen.png') center center no-repeat;
+
+#logo-cornerstone {
+    background: url('../images/work/logo_cornerstone.png') center center no-repeat;
 }
-#inventiongroup {
-    background: url('../images/projects/inventiongroup.png') center center no-repeat;
+#logo-inventiongroup {
+    background: url('../images/work/logo_inventiongroup.png') center center no-repeat;
 }
-#retrogamingzone {
-    background: url('../images/projects/retrogamingzone.png') center center no-repeat;
+#logo-letsplaybingo {
+    background: url('../images/work/logo_letsplaybingo.png') center center no-repeat;
 }
-#webdesignbestpractices {
-    background: url('../images/projects/webdesignbestpractices.png') center center no-repeat;
+#logo-mapleavenue {
+    background: url('../images/work/logo_mapleavenue.png') center center no-repeat;
 }
-.portfolio-piece .graphic {
-    background-size: contain !important;
+#logo-retrogamingzone {
+    background: url('../images/work/logo_retrogamingzone.png') center center no-repeat;
 }
+#logo-silvertonguepress {
+    background: url('../images/work/logo_silvertonguepress.png') center center no-repeat;
+}
+#logo-spectrum {
+    background: url('../images/work/logo_spectrum.png') center center no-repeat;
+}
+#logo-zealousz {
+    background: url('../images/work/logo_zealousz.png') center center no-repeat;
+}
+
 
 
 /* * * * * * * * * * * Skills * * * * * * * * * */
@@ -649,4 +693,25 @@ img {
     h2 {
         font-size: 2rem;
     }
+}
+
+@media screen and (max-width: 1400px){
+    .container {
+        width: 95%;
+    }
+}
+@media screen and (min-width: 1400px){
+    body, html {
+        font-size: 26px;
+    }
+    .container {
+        width: 85%;
+        max-width: 1800px;
+    }
+    /*#navigation, #navigation li a {*/
+        /*font-size: 1.5rem;*/
+    /*}*/
+    /*.down {*/
+        /*font-size: 6rem;*/
+    /*}*/
 }
