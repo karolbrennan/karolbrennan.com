@@ -1,4 +1,7 @@
 <?php
+$skills = [
+    'Web Design', 'Graphic Design', 'Web Development', 'Object Oriented Programming', 'Animation'
+];
 $languages = [
     'HTML', 'CSS', 'PHP / OOPHP', 'MySQL', 'JavaScript', 'SASS'
 ];
@@ -22,21 +25,32 @@ $tools = [
         </div>
         <div class="row">
             <div class="col s12 m6">
+                <?php echo "<h3>Skills</h3><p>";
+                foreach($skills as $skill){
+                    echo "<span>{$skill}</span> ";
+                }
+                echo "</p>"; ?>
+            </div>
+            <div class="col s12 m6">
                 <?php echo "<h3>Languages</h3><p>";
                 foreach($languages as $language){
                     echo "<span>{$language}</span> ";
                 }
                 echo "</p>"; ?>
-                <?php echo "<h3>Frameworks</h3><p>";
-                foreach($frameworks as $framework){
-                    echo "<span>{$framework}</span> ";
-                }
-                echo "</p>"; ?>
             </div>
+        </div>
+        <div class="row">
             <div class="col s12 m6">
                 <?php echo "<h3>Tools &amp; Platforms</h3><p>";
                 foreach($tools as $tool){
                     echo "<span>{$tool}</span> ";
+                }
+                echo "</p>"; ?>
+            </div>
+            <div class="col s12 m6">
+                <?php echo "<h3>Frameworks</h3><p>";
+                foreach($frameworks as $framework){
+                    echo "<span>{$framework}</span> ";
                 }
                 echo "</p>"; ?>
             </div>

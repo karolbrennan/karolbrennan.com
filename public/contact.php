@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col s12">
-                <h2>Wanna Work With Me?</h2><a id="contact"></a>
+                <h2>Want To Work With Me?</h2><a id="contact"></a>
             </div>
         </div>
         <div class="row">

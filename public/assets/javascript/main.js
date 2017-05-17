@@ -51,3 +51,7 @@ $(window).scroll(function() {
 $('#menutoggle').on('click', function(){
     $('#mainnav').toggleClass('open');
 });
+
+$('.web-work').on('click', function(){
+   $(this).toggleClass('active');
+});

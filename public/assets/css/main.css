@@ -155,8 +155,8 @@ ul#navigation {
     width: auto;
 }
 #about h2 {
-    font-size: 3.25rem;
-    margin-bottom: 2rem;
+    font-size: 2.75rem;
+    margin: 0 0 1em;
     color: #e49b3a;
     width: auto;
 }
@@ -184,6 +184,10 @@ img#profile {
 #about .intro p:first-of-type {
     margin-top: 0;
 }
+ul.doit {
+    background: rgba(23, 15, 5, 0.71);
+    padding: 1rem;
+}
 ul.doit li {
     color: white;
     margin: 0.5em;
@@ -199,42 +203,58 @@ ul.doit li {
 .doit li em {
     display: block;
     margin-left: 2rem;
-    color: rgba(245, 173, 40, 0.63);
+    color: #7b7b7b;
     font-size: 0.9em;
 }
-#about .box {
-    padding: 2rem 1rem;
-    margin: 0.75rem 0;
-}
-#about .box > i {
-    color: #E49B3A;
-    font-size: 3rem;
-    display: block;
-    text-align: center;
-}
-#about .box p i {
-    margin-right: 0.5em;
-}
-#about .box p {
-    font-size: 0.8rem;
-    color: #7d7a6a;
-    text-shadow: 1px 1px 0 rgba(0,0,0,0.8);
-}
-
 #about strong {
     color: white;
     font-size: 1rem;
     text-transform: uppercase;
 }
 
-/* * * * * * * * * * * Portfolio Pieces * * * * * * * * * */
+
+/* * * * * * * * * * * Skills * * * * * * * * * */
+#skills {
+    background: rgba(0,0,0,0.3);
+}
+#skills:after {
+    display: block;
+    content: '';
+    background: rgba(228, 155, 58, 0.54);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+}
+#skills h3 {
+    color: #e49b3a;
+    margin-left: 2rem;
+}
+#skills p {
+    margin-left: 2rem;
+}
+#skills span {
+    background: rgba(0,0,0,0.8);
+    padding: 0.5em 1em;
+    line-height: 2.5;
+    white-space: nowrap;
+    font-weight: 900;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 0.25rem;
+}
+
+
+/* * * * * * * * * * * Work * * * * * * * * * */
 #work {
     background: rgba(0,0,0,0.8);
 }
 #work:before {
     display: block;
     content: '';
-    background: rgba(40, 156, 106, 0.56);
+    background: rgba(204, 52, 98, 0.34);
     height: 50%;
     position: absolute;
     top: 0;
@@ -245,7 +265,7 @@ ul.doit li {
 #work:after {
     display: block;
     content: '';
-    background: rgba(40, 156, 106, 0.56);
+    background: rgba(204, 52, 98, 0.34);
     height: 50%;
     position: absolute;
     bottom: 0;
@@ -256,55 +276,44 @@ ul.doit li {
 #work h2 {
     text-align: right;
 }
-
-.portfolio-piece .row {
-    padding: 0;
-    background: rgba(16, 16, 16, 0.9);
-    color: rgba(0,0,0,0.6);
-    margin-bottom: 1rem !important;
-}
-.portfolio-piece .graphic {
-    background-size: contain !important;
-    width: 30%;
-    float: right;
-    min-height: 7rem;
-    margin-left: 1rem;
-}
-.portfolio-piece .description {
-    padding: 2rem;
-}
-.portfolio-piece .row:hover .details {
-    background: rgba(0,0,0,0.5);
-}
-.date {
-    float: right;
-    font-size: 1rem;
-    color: rgba(255,255,255,0.3);
-}
-.technology {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.technology li {
-    display: inline-block;
-    font-size: 0.8rem;
-    color: #efefef;
-    background: rgba(46, 12, 39, 0.5);
-    margin: 0 0.2rem;
-    padding: 0.25em 0.5em;
-}
 .row.collapse {
     margin-bottom: 0;
 }
-.workpiece {
+.work-logo {
     height: 50vh;
     background-size: cover !important;
+}
+.work-web {
+    height: 40vh;
+    background-size: cover !important;
+    overflow: hidden;
+    position: relative;
+    transition: all 1s ease;
+}
+.work-web .work-details {
+    position: absolute;
+    transition: all 1s ease;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    bottom: -120%;
+    left: 0;
+    padding: 1rem;
+    color: #fff;
+}
+.work-web .work-details > div {
+    text-align: center;
+    width: 100%;
+}
+.work-web:hover .work-details, .work-web.active .work-details {
+    bottom: 0;
+    background: rgba(0,0,0,0.9);
 }
 #logo-colorpro {
     background: url('../images/work/logo_colorpro.png') center center no-repeat;
 }
-
 #logo-cornerstone {
     background: url('../images/work/logo_cornerstone.png') center center no-repeat;
 }
@@ -329,177 +338,51 @@ ul.doit li {
 #logo-zealousz {
     background: url('../images/work/logo_zealousz.png') center center no-repeat;
 }
-
-
-
-/* * * * * * * * * * * Skills * * * * * * * * * */
-#skills {
-    background: rgba(0,0,0,0.6);
+#web-cornerstone {
+    background: url('../images/work/web_cornerstone.png') top center no-repeat;
 }
-#skills:before {
-    display: block;
-    content: '';
-    background: rgba(228, 155, 58, 0.54);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    z-index: -1;
+#web-crossroad {
+    background: url('../images/work/web_crossroad.png') top center no-repeat;
 }
-#skills h3 {
-    color: #e49b3a;
-    margin-left: 2rem;
+#web-driport {
+    background: url('../images/work/web_driport.png') top center no-repeat;
 }
-#skills p {
-    margin-left: 2rem;
+#web-erico {
+    background: url('../images/work/web_erico.png') top center no-repeat;
 }
-#skills span {
-    background: rgba(0,0,0,0.8);
-    padding: 0.5em 1em;
-    line-height: 2.5;
-    white-space: nowrap;
-    font-weight: 900;
-    font-size: 1rem;
-    text-transform: uppercase;
-    border-radius: 0.25rem;
+#web-invention {
+    background: url('../images/work/web_inventiongroup.png') top center no-repeat;
 }
-
-/* * * * * * * * * * * Portfolio * * * * * * * * * */
-#portfolio {
-    background: rgba(0,0,0,0.8);
+#web-letsplaybingo {
+    background: url('../images/work/web_letsplaybingo.png') top center no-repeat;
 }
-#portfolio:before {
-    display: block;
-    content: '';
-    background: rgba(204, 52, 98, 0.34);
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    z-index: -1;
+#web-wdbp {
+    background: url('../images/work/web_wdbp.png') top center no-repeat;
 }
-
-.portfoliopiece {
-    width: 100%;
-    display: block;
+#web-weconnect-simple {
+    background: url('../images/work/web_weconnect-simple.png') top center no-repeat;
 }
-
-.contain { background-size: contain !important; }
-.cover { background-size: cover !important; }
-
-.h10 { height: 10vh; }
-.h15 { height: 15vh; }
-.h20 { height: 20vh; }
-.h25 { height: 25vh; }
-.h30 { height: 30vh; }
-.h35 { height: 35vh; }
-.h40 { height: 40vh; }
-.h45 { height: 45vh; }
-.h50 { height: 50vh; }
-.h55 { height: 55vh; }
-.h60 { height: 60vh; }
-.h65 { height: 65vh; }
-.h70 { height: 70vh; }
-.h75 { height: 75vh; }
-.h80 { height: 80vh; }
-.h85 { height: 85vh; }
-.h90 { height: 90vh; }
-.h95 { height: 95vh; }
-.h100 { height: 100vh; }
-
-#portfolio .col {
-    margin: 0;
-    padding: 0;
+#web-weconnect-rays {
+    background: url('../images/work/web_weconnect-rays.png') top center no-repeat;
 }
-#portfolio h3 {
-    margin: 3rem 0 1rem;
+#web-thunderroad {
+    background: url('../images/work/web_thunderroad.png') top center no-repeat;
 }
-.portfoliopiece {
-    border: 1px solid #444;
+#web-weconnect-glass {
+    background: url('../images/work/web_weconnect-glass.png') top center no-repeat;
 }
-
-/** Branding **/
-.portfoliopiece#spectrum {
-    background: url('../images/portfolio/branding/spectrum_logo.png') center center no-repeat #fff;  }
-.portfoliopiece#mapleave {
-    background: url('../images/portfolio/branding/maple_avenue_logos.jpg') center center no-repeat #fff;  }
-.portfoliopiece#colorpro {
-    background: url('../images/portfolio/branding/color_pro_logo.png') center center no-repeat #fff;  }
-.portfoliopiece#dickhammer {
-    background: url('../images/portfolio/branding/dick_hammer_dusty_drawers.png') center center no-repeat #fff;  }
-.portfoliopiece#theinventiongroup {
-    background: url('../images/portfolio/branding/inventiongroup.jpg') center center no-repeat #fff;  }
-.portfoliopiece#silvertongue {
-    background: url('../images/portfolio/branding/silvertonguepress_fbicon.jpg') center center no-repeat #fff;  }
-
-/** Sites **/
-.portfoliopiece#weconnect {
-    background: url('../images/portfolio/web/simple-blue.png') center top no-repeat;  }
-.portfoliopiece#thunderroad {
-    background: url('../images/portfolio/web/ThunderRoad.png') center top no-repeat;  }
-.portfoliopiece#erico {
-    background: url('../images/portfolio/web/EricoMotorsports.png') center top no-repeat;}
-.portfoliopiece#jeffjones {
-    background: url('../images/portfolio/web/JeffJones.jpg') center top no-repeat;}
-.portfoliopiece#boatlocker {
-    background: url('../images/portfolio/web/TheBoatLocker.jpg') center top no-repeat;}
-.portfoliopiece#marinecollection {
-    background: url('../images/portfolio/web/MarineCollection.png') center top no-repeat;}
-.portfoliopiece#crossroads {
-    background: url('../images/portfolio/web/CrossroadPowersports.jpg') center top no-repeat;}
-.portfoliopiece#cornerstone {
-    background: url('../images/portfolio/web/cornerstone_mobile.jpg') center top no-repeat;}
-.portfoliopiece#invention {
-    background: url('../images/portfolio/web/inventiongroup.jpg') center top no-repeat;}
-
-/** Illustrations **/
-.portfoliopiece#ck {
-    background: url('../images/portfolio/illustrations/ck.png') center center no-repeat #fff;  }
-.portfoliopiece#pvz {
-    background: url('../images/portfolio/illustrations/FINAL.png') center center no-repeat;}
-.portfoliopiece#lostprophets {
-    background: url('../images/portfolio/illustrations/LostProphets1.jpg') center top no-repeat #fff;  }
-.portfoliopiece#alima {
-    background: url('../images/portfolio/illustrations/AdrianaLima14.jpg') center top no-repeat;  }
-.portfoliopiece#alyson {
-    background: url('../images/portfolio/illustrations/AlysonHannigan.jpg') left center no-repeat #fff;  }
-.portfoliopiece#jolie {
-    background: url('../images/portfolio/illustrations/AngelinaJolie1.jpg') center center no-repeat #fff;  }
-.portfoliopiece#britney {
-    background: url('../images/portfolio/illustrations/BritneySpears8.jpg') center top no-repeat #fff;  }
-
-/** Photography **/
-.portfoliopiece#bear {
-    background: url('../images/portfolio/photography/bear.jpg') center center no-repeat;}
-.portfoliopiece#daffodil {
-    background: url('../images/portfolio/photography/daffodil.jpg') center center no-repeat;}
-.portfoliopiece#field {
-    background: url('../images/portfolio/photography/field.jpg') center center no-repeat;  }
-.portfoliopiece#jellyfish {
-    background: url('../images/portfolio/photography/jellyfish.jpg') center center no-repeat;}
-.portfoliopiece#ride {
-    background: url('../images/portfolio/photography/ride.jpg') center center no-repeat;}
-.portfoliopiece#spider {
-    background: url('../images/portfolio/photography/spider.jpg') center center no-repeat;}
-.portfoliopiece#cheetah {
-    background: url('../images/portfolio/photography/cheetah.jpg') center center no-repeat;}
-
-
-
-/* * * * * * * * * * * Testimonials * * * * * * * * * */
-#testimonials {
-
+#web-retrogamingzone {
+    background: url('../images/work/web_retrogamingzone.png') top center no-repeat;
 }
-#testimonials .box {
-    padding: 2rem;
+#web-jeffjones {
+    background: url('../images/work/web_jeffjones.png') top center no-repeat;
 }
-#testimonials blockquote {
-    color: #efefef;
+#web-jims {
+    background: url('../images/work/web_jims.png') top center no-repeat;
 }
-
-
+#web-jimwalker {
+    background: url('../images/work/web_jimwalker.png') top center no-repeat;
+}
 
 
 /* * * * * * * * * * * Contact * * * * * * * * * */
@@ -549,6 +432,10 @@ a .fa-github {
 /* * * * * * * * * * * Footer * * * * * * * * * */
 footer {
     background: #111111;
+}
+footer img {
+    width: 2rem;
+    height: auto;
 }
 footer a {
     color: #444;
@@ -638,33 +525,42 @@ img {
 
 /* * * * * * * * * * * Responsive Stuff * * * * * * * * * */
 
+@media screen and (min-width: 1600px){
+    body, html {
+        font-size: 26px;
+    }
+    .container {
+        width: 85%;
+        max-width: 1800px;
+    }
+}
+@media screen and (max-width: 1400px){
+    .container {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .work-logo {
+        height: 35vh;
+    }
+    .work-web {
+        height: 30vh;
+    }
+}
+@media screen and (max-width: 800px){
+    #about h2, h2 {
+        font-size: 2rem;
+    }
+    .work-logo {
+        height: 30vh;
+    }
+    .work-web {
+        height: 30vh;
+    }
+}
 @media screen and (max-width: 500px){
     h1 {
         font-size: 3rem;
-    }
-    #projects {
-        padding: 3rem 0;
-    }
-    .portfolio-piece .row {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 1.5rem;
-    }
-    .portfolio-piece .col {
-        min-height: 11rem;
-    }
-    .portfolio-piece .graphic {
-        order: 1;
-        background-size: cover !important;
-    }
-    .portfolio-piece .details {
-        order: 2;
-    }
-    .portfolio-piece .technology {
-        float: none;
-        display: block;
-        width: 100%;
-        margin-bottom: 1em;
     }
     #navigation ul {
         position: absolute;
@@ -680,38 +576,25 @@ img {
     #navigation ul li {
         padding: 0.25em 0.5em;
     }
-}
-@media screen and (max-width: 800px){
-    .box i:first-child {
-        width: 3rem;
+    img#profile {
+        width: 50%;
+        display: block;
+        margin: 0 auto 1rem;
     }
-    .box i:first-child, .box p {
-        display: inline-block !important;
-        vertical-align: middle;
-        margin: 0 1rem;
+    .headings {
+        width: 100%;
+        margin: 0;
     }
-    h2 {
-        font-size: 2rem;
+    #skills {
+        background: rgba(228, 155, 58, 0.54);
     }
-}
-
-@media screen and (max-width: 1400px){
-    .container {
-        width: 95%;
+    #skills:after {
+        display: none;
     }
-}
-@media screen and (min-width: 1400px){
-    body, html {
-        font-size: 26px;
+    .work-logo {
+        height: 50vh;
     }
-    .container {
-        width: 85%;
-        max-width: 1800px;
+    .work-web {
+        height: 35vh;
     }
-    /*#navigation, #navigation li a {*/
-        /*font-size: 1.5rem;*/
-    /*}*/
-    /*.down {*/
-        /*font-size: 6rem;*/
-    /*}*/
 }

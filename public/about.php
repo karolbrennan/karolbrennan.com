@@ -7,7 +7,7 @@
                         <img src="/assets/images/_profile.jpg" alt="That's my face!" id="profile">
                         <div class="headings">
                             <h1>Hello.</h1><a id="about"></a>
-                            <h2>I'm Karol Brennan, and I like to code my face off.</h2>
+                            <h2>I'm Karol Brennan, <br>and I like to code my face off.</h2>
                         </div>
                     </div>
                 </div>
@@ -38,8 +38,8 @@
 
                 <div class="row">
                     <div class="s12 col">
-                        <p><a href="http://karolbrennan.com/assets/KarolBrennan-Resume2017.pdf" class="transition cta">Download my Resumé!</a></p>
-                        <p><a href="http://karol.codes" class="transition cta">Check out my GitHub!</a></p>
+                        <p><a href="http://karolbrennan.com/assets/KarolBrennan-Resume2017.pdf" class="transition cta">Download my Resumé</a>, or check out more of my work on
+                        <a href="http://karol.codes" class="transition cta">GitHub!</a></p>
                     </div>
                 </div>
             </div>

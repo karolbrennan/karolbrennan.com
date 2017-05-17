@@ -1,16 +1,7 @@
 <footer>
     <div class="row">
-        <div class="col s12 m4">
-        </div>
-        <div class="col s12 m4">
-        </div>
-        <div class="col s12 m4">
-        </div>
-    </div>
-
-    <div class="row">
         <div class="col s12 m6">
-            <p><a href="/"><?= $sitetitle; ?></a></p>
+            <p><a id="logolink" href="#top" data-scroll="top"><img src="/assets/images/kb-white.svg" alt="karolbrennan logo"></a></p>
         </div>
         <div class="col s12 m6 right-align">
             <p>&copy; <?= date('Y') . ' ' . $sitetitle ?></p>
