@@ -11,13 +11,13 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed|Oswald|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/main.css">
-<!--    <meta property="og:image" content="/assets/images/ogimage.png"/>-->
+    <meta property="og:image" content="/assets/img/ogimage.png"/>
 </head>
 <body class="flow-text">
 
 <header id="header" class="fixed transition">
     <div class="left">
-        <a id="logolink" href="#top" data-scroll="top"><img src="/assets/images/kb-white.svg" alt="karolbrennan logo"></a>
+        <a id="logolink" href="#top" data-scroll="top"><img src="/assets/img/kb-white.svg" alt="karolbrennan logo"></a>
     </div>
 
     <div class="right">
@@ -37,7 +37,7 @@
 <section id="logo" data-anchor="top">
     <div class="valign-wrapper">
         <div class="valign">
-            <div class="logo"><img src="/assets/images/kb-white.svg" alt="karolbrennan logo"></div>
+            <div class="logo"><img src="/assets/img/kb-white.svg" alt="karolbrennan logo"></div>
             <div class="down"><i class="fa fa-chevron-down"></i></div>
         </div>
     </div>
