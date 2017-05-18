@@ -1,5 +1,5 @@
 
-<section id="work" class="relative" data-anchor="work">
+<section id="worksection" class="relative" data-anchor="work">
 
     <div class="row">
         <div class="s12 col">
@@ -164,7 +164,7 @@
         <div class="s12 m4 col work-web" id="web-jims">
             <div class="work-details">
                 <div>
-                    <h5>Jim's Motorcycle <Sales></Sales></h5>
+                    <h5>Jim's Motorcycle Sales</h5>
                     <p>Redesign for a powersports dealership</p>
                 </div>
             </div>

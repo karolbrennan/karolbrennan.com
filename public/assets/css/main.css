@@ -68,16 +68,12 @@ body {
 header, footer, section {
     padding: 1rem;
 }
-section {
+section, #logo {
     background: rgba(0,0,0,0.6);
-}
-section {
     padding: 7rem 1rem;
 }
-section > .valign-wrapper {
-    /*min-height: 100vh;*/
-}
-section > .valign-wrapper > .valign {
+section > .valign-wrapper > .valign,
+#logo > .valign-wrapper > .valign {
     width: 100%;
     margin: 0 auto;
 }
@@ -96,7 +92,7 @@ section > .valign-wrapper > .valign {
     right: 1rem;
 }
 #menutoggle i {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.57);
     font-size: 2rem;
     transition: all ease 0.5s;
 }
@@ -218,14 +214,14 @@ nav a.active {
 
 
 /* * * * * * * * * * * About Section * * * * * * * * * */
-#about {
+#aboutsection {
     font-size: 1rem;
 }
-#about h1 {
+#aboutsection h1 {
     margin-bottom: 1rem;
     width: auto;
 }
-#about h2 {
+#aboutsection h2 {
     font-size: 2.75rem;
     margin: 0 0 1em;
     color: #e49b3a;
@@ -247,11 +243,11 @@ img#profile {
     transform: rotate(-20deg);
 }
 
-#about .intro p {
+#aboutsection .intro p {
     font-size: 1.25rem;
     color: #b3b3b3;
 }
-#about .intro p:first-of-type {
+#aboutsection .intro p:first-of-type {
     margin-top: 0;
 }
 ul.doit {
@@ -276,7 +272,7 @@ ul.doit li {
     color: #7b7b7b;
     font-size: 0.9em;
 }
-#about strong {
+#aboutsection strong {
     color: white;
     font-size: 1rem;
     text-transform: uppercase;
@@ -284,13 +280,14 @@ ul.doit li {
 
 
 /* * * * * * * * * * * Skills * * * * * * * * * */
-#skills {
+#skillssection {
     background: rgba(0,0,0,0.3);
 }
-#skills:after {
+#skillssection:after {
     display: block;
     content: '';
-    background: rgba(228, 155, 58, 0.54);
+    /*background: rgba(228, 155, 58, 0.54);*/
+    background: rgba(23, 90, 61, 0.54);
     position: absolute;
     top: 0;
     right: 0;
@@ -298,14 +295,14 @@ ul.doit li {
     height: 100%;
     z-index: -1;
 }
-#skills h3 {
+#skillssection h3 {
     color: #e49b3a;
     margin-left: 2rem;
 }
-#skills p {
+#skillssection p {
     margin-left: 2rem;
 }
-#skills span {
+#skillssection span {
     background: rgba(0,0,0,0.8);
     padding: 0.5em 1em;
     line-height: 2.5;
@@ -318,10 +315,10 @@ ul.doit li {
 
 
 /* * * * * * * * * * * Work * * * * * * * * * */
-#work {
+#worksection {
     background: rgba(0,0,0,0.8);
 }
-#work:before {
+#worksection:before {
     display: block;
     content: '';
     background: rgba(204, 52, 98, 0.34);
@@ -332,7 +329,7 @@ ul.doit li {
     width: 50%;
     z-index: -1;
 }
-#work:after {
+#worksection:after {
     display: block;
     content: '';
     background: rgba(204, 52, 98, 0.34);
@@ -343,7 +340,7 @@ ul.doit li {
     width: 50%;
     z-index: -1;
 }
-#work h2 {
+#worksection h2 {
     text-align: right;
 }
 .row.collapse {
@@ -662,7 +659,7 @@ section:not(#logo).loaded > div {
     }
 }
 @media screen and (max-width: 800px) {
-    #about h2, h2 {
+    #aboutsection h2, h2 {
         font-size: 2rem;
     }
 }
@@ -703,10 +700,10 @@ section:not(#logo).loaded > div {
         width: 100%;
         margin: 0;
     }
-    #skills {
+    #skillssection {
         background: rgba(228, 155, 58, 0.54);
     }
-    #skills:after {
+    #skillssection:after {
         display: none;
     }
 

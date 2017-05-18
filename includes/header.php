@@ -1,14 +1,14 @@
 <?php $sitetitle = 'Karol Brennan | Full Stack Web Developer / UX Designer'; ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title><?= $sitetitle; ?></title>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
     <link rel="stylesheet" href="/assets/css/materialize.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed|Oswald|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/main.css">
 
@@ -33,11 +33,11 @@
     </ul>
 </nav>
 
-<section id="logo" data-anchor="top">
+<div id="logo" data-anchor="top">
     <div class="valign-wrapper">
         <div class="valign">
             <div class="logo"><img src="/assets/img/kb-white.svg" alt="karolbrennan logo"></div>
             <div class="down"><i class="fa fa-chevron-down"></i></div>
         </div>
     </div>
-</section>
+</div>
