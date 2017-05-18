@@ -84,13 +84,29 @@ section > .valign-wrapper > .valign {
 
 
 /* * * * * * * * * * * Header * * * * * * * * * */
-header.fixed {
+#smlogo, #menutoggle {
     position: fixed;
-    top: 0; left: 0;
-    width: 100%;
-    z-index: 1;
+    top: 1rem;
+    z-index: 99999;
 }
-header img {
+#smlogo {
+    left: 1rem;
+}
+#menutoggle {
+    right: 1rem;
+}
+#menutoggle i {
+    color: #fff;
+    font-size: 2rem;
+    transition: all ease 0.5s;
+}
+#menutoggle i:hover {
+    cursor: pointer;
+}
+.spineffect {
+    transform: rotate(360deg);
+}
+#logolink img {
     height: 6vh;
     width: auto;
     background: rgba(0, 0, 0, 0.3);
@@ -99,34 +115,81 @@ header img {
 
 
 /* * * * * * * * * * * Navigation * * * * * * * * * */
-ul#navigation {
-    margin: 0;
-    padding: 0.25rem 0.5rem;
-    z-index: 99999;
-}
-#navigation i, #navigation a {
-    color: #fff;
-}
-#navigation i:hover, #navigation a:hover {
-    color: #289C6A;
-    cursor: pointer;
-}
-#navigation ul {
+nav {
+    background-color: transparent;
+    z-index: 3;
+    height: auto;
+    line-height: inherit;
+    box-shadow: none;
+    display: none;
     visibility: hidden;
     opacity: 0;
+    margin: 0;
+    transition: all 1s ease 0.25s;
+}
+nav.open {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    float: none;
+    padding: 2em 1em;
+}
+nav ul li a {
+    color: white;
+}
+nav ul li a:hover {
+    background-color: transparent;
+}
+nav a.active {
+    color: #E49B3A;
 }
 #navigation ul.open {
     visibility: visible;
     opacity: 1;
 }
-#mainnav li {
-    font-size: 0.8rem;
-}
-#mainnav a.active {
-    color: #E49B3A;
-}
 
-
+@media screen and (max-width: 40em){
+    nav {
+        background-color: #222222;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 3;
+        padding: 25vh 0;
+        width: 100vw;
+        height: 100vh;
+    }
+    nav ul li {
+        padding: 1em 0.5em;
+    }
+    nav ul li a {
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 41em){
+    nav.open {
+        position: fixed;
+        right: 0;
+        top: 4rem;
+        width: auto;
+    }
+    nav.open li {
+        padding: 0.25em 0.5em;
+        text-align: right;
+    }
+}
 /* * * * * * * * * * * Logo Section * * * * * * * * * */
 #logo {
     text-align: center;

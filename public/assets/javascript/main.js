@@ -1,41 +1,30 @@
+
+$('#menutoggle').on('click touch', function(){
+    $('nav').toggleClass('open');
+    $('#menutoggle i').toggleClass('fa-navicon').toggleClass('fa-times').toggleClass('spineffect');
+});
+
 $('#mainnav a').on('click touchstart', function() {
-    $('#mainnav a.active').removeClass('active');
+    if(window.innerWidth <= 600){
+        $('nav').removeClass('open');
+        $('#menutoggle i').toggleClass('fa-times').toggleClass('fa-navicon').toggleClass('spineffect');
+    }
+    $('nav a.active').removeClass('active');
     $(this).addClass('active');
+});
+
+$('#logolink, #footerlink, #contactlink, #mainnav a').on('click touchstart', scrollToPoint);
+
+function scrollToPoint(){
+    console.log(this);
     var scrollAnchor = $(this).attr('data-scroll'),
         scrollPoint = $('section[data-anchor="' + scrollAnchor + '"]').offset().top;
 
-    $('body,html').animate({
+    $('body, html').animate({
         scrollTop: scrollPoint
     }, 500);
-
     return false;
-});
-$('#logolink').on('click touchstart', function() {
-    var scrollAnchor = $(this).attr('data-scroll'),
-        scrollPoint = $('section[data-anchor="' + scrollAnchor + '"]').offset().top;
-
-    $('body,html').animate({
-        scrollTop: scrollPoint
-    }, 500);
-
-    return false;
-});
-
-$('#contactlink').on('click touchstart', function() {
-    var scrollAnchor = $(this).attr('data-scroll'),
-        scrollPoint = $('section[data-anchor="' + scrollAnchor + '"]').offset().top;
-
-    $('body,html').animate({
-        scrollTop: scrollPoint
-    }, 500);
-
-    return false;
-});
-
-$('#menutoggle').on('click touchstart', function(){
-    console.log('hi');
-    $('#mainnav').toggleClass('open');
-});
+}
 
 $(window).scroll(function() {
     var windscroll = $(window).scrollTop();
@@ -58,7 +47,6 @@ $(window).scroll(function() {
 
 
 $('.work-web').on('click touchstart', function(){
-    console.log(this);
     $('.work-web.active').removeClass('active');
     $(this).addClass('active');
 });

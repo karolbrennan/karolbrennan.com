@@ -22,26 +22,17 @@
     <meta name="twitter:image" content="http://karolbrennan.com/assets/img/ogimage.png" /><meta name="twitter:image:alt" content="Karol Brennan Web Developer" />
 </head>
 <body class="flow-text">
+<div id="smlogo"><a id="logolink" data-scroll="top"><img src="/assets/img/kb-white.svg" alt="karolbrennan logo"></a></div>
+<div id="menutoggle"><i class="fa fa-navicon"></i></div>
+<nav id="mainnav" class="transition">
+    <ul class="transition">
+        <li><a href="#about" data-scroll="about">About</a></li>
+        <li><a href="#skills" data-scroll="skills">Skills</a></li>
+        <li><a href="#work" data-scroll="work">Work</a></li>
+        <li><a href="#contact" data-scroll="contact">Contact</a></li>
+    </ul>
+</nav>
 
-<header id="header" class="fixed transition">
-    <div class="left">
-        <a id="logolink" href="#top" data-scroll="top"><img src="/assets/img/kb-white.svg" alt="karolbrennan logo"></a>
-    </div>
-
-    <div class="right">
-        <ul id="navigation" class="transition right-align">
-            <li><span id="menutoggle"><i class="fa fa-bars"></i></span>
-                <ul id="mainnav" class="transition">
-                    <li><a href="#about" data-scroll="about">About</a></li>
-                    <li><a href="#skills" data-scroll="skills">Skills</a></li>
-                    <li><a href="#work" data-scroll="work">Work</a></li>
-                    <li><a href="#contact" data-scroll="contact">Contact</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-</header>
-<a id="top"></a>
 <section id="logo" data-anchor="top">
     <div class="valign-wrapper">
         <div class="valign">
