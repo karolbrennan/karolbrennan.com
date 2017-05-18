@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col s12">
                 <p>There used to be this fancy contact form here, but the majority of messages I received were in Russian or from people trying to increase my traffic.</p>
-                <p>So! If you'd like to get in touch with me, shoot an email to codemasterkarol on the gmails and I will get back to you (<em>as long as you're not trying to sell me male performance pills.</em>)</p>
+                <p>So! If you'd like to get in touch with me, shoot an email to karol at karolbrennan.com and I will get back to you (<em>as long as you're not trying to sell me male performance pills.</em>)</p>
             </div>
         </div>
         <div class="row">

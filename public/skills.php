@@ -1,13 +1,13 @@
 <?php
 $skills = [
-    'Web Design', 'Graphic Design', 'Web Development', 'Object Oriented Programming', 'Animation'
+    'Web Design', 'UX Design', 'Web Development', 'Object Oriented Programming'
 ];
 $languages = [
-    'HTML', 'CSS', 'PHP / OOPHP', 'MySQL', 'JavaScript', 'SASS'
+    'HTML', 'CSS', 'PHP', 'MySQL', 'JavaScript'
 ];
 $frameworks = [
     'jQuery', 'CSS Frameworks', 'Foundation', 'Bootstrap', 'Materialize CSS',
-    'Nova (Simple MVC) Framework', 'Zend Framework 1'
+    'Nova (Simple MVC) Framework', 'Zend 1 Framework'
 ];
 $tools = [
     'Git', 'Subversion', 'Vagrant', 'Ansible',

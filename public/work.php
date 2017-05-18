@@ -173,7 +173,7 @@
 
     <div class="row">
         <div class="s12 col">
-            <p class="center-align">See more of my work on <a href="http://github.com/codemasterkarol/portfolio">GitHub</a></p>
+            <p class="center-align"><a href="http://github.com/codemasterkarol/portfolio" class="calltoaction">See More of My Work on GitHub!</a></p>
         </div>
     </div>
 

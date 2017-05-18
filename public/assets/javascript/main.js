@@ -1,4 +1,4 @@
-$('#mainnav a').on('click', function() {
+$('#mainnav a').on('click touchstart', function() {
     $('#mainnav a.active').removeClass('active');
     $(this).addClass('active');
     var scrollAnchor = $(this).attr('data-scroll'),
@@ -10,7 +10,7 @@ $('#mainnav a').on('click', function() {
 
     return false;
 });
-$('#logolink').on('click', function() {
+$('#logolink').on('click touchstart', function() {
     var scrollAnchor = $(this).attr('data-scroll'),
         scrollPoint = $('section[data-anchor="' + scrollAnchor + '"]').offset().top;
 
@@ -21,7 +21,7 @@ $('#logolink').on('click', function() {
     return false;
 });
 
-$('#contactlink').on('click', function() {
+$('#contactlink').on('click touchstart', function() {
     var scrollAnchor = $(this).attr('data-scroll'),
         scrollPoint = $('section[data-anchor="' + scrollAnchor + '"]').offset().top;
 
@@ -30,6 +30,11 @@ $('#contactlink').on('click', function() {
     }, 500);
 
     return false;
+});
+
+$('#menutoggle').on('click touchstart', function(){
+    console.log('hi');
+    $('#mainnav').toggleClass('open');
 });
 
 $(window).scroll(function() {
@@ -42,16 +47,18 @@ $(window).scroll(function() {
                     $('#mainnav a').eq(i - 1).addClass('active');
                 }
             }
+            if($(this).position().top <= windscroll + 750){
+                $(this).addClass('loaded');
+            }
         });
     } else {
         $('#mainnav a.active').removeClass('active');
     }
 }).scroll();
 
-$('#menutoggle').on('click', function(){
-    $('#mainnav').toggleClass('open');
-});
 
-$('.web-work').on('click', function(){
-   $(this).toggleClass('active');
+$('.work-web').on('click touchstart', function(){
+    console.log(this);
+    $('.work-web.active').removeClass('active');
+    $(this).addClass('active');
 });

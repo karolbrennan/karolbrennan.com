@@ -1,4 +1,4 @@
-<?php $sitetitle = 'Karol Brennan'; ?>
+<?php $sitetitle = 'Karol Brennan | Full Stack Web Developer / UX Designer'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +11,15 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed|Oswald|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <meta property="og:image" content="/assets/img/ogimage.png"/>
+
+    <meta name="description" content="Southeast Wisconsin based Full Stack Web Developer / UX Designer available for Freelance projects.">
+    <meta name="keywords" content="Web Design, Web Development, Full Stack Web Developer, UX Designer, Web Designer, Web Developer, Freelance">
+    <meta property="og:image" content="http://karolbrennan.com/assets/img/ogimage.png"/>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@codemasterkarol" />
+    <meta name="twitter:title" content="Karol Brennan : Full Stack Web Developer / UI/UX Designer" />
+    <meta name="twitter:description" content="Southeast Wisconsin based Full Stack Web Developer / UX Designer available for Freelance projects." />
+    <meta name="twitter:image" content="http://karolbrennan.com/assets/img/ogimage.png" /><meta name="twitter:image:alt" content="Karol Brennan Web Developer" />
 </head>
 <body class="flow-text">
 

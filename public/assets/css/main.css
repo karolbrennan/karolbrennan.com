@@ -54,9 +54,16 @@ strong.italic {
 
 /* * * * * * * * * * * Main Styles * * * * * * * * * */
 body {
-    background: url('../img/desk.jpg') top center no-repeat fixed #31302f;
+    background: url('../img/desk2.jpg') top center no-repeat #31302f fixed;
     background-size: cover;
     color: #444;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    /* Fix for Safari on iOS */
+    body {
+        -webkit-background-size: auto 100vh !important;
+        background-attachment: scroll;
+    }
 }
 header, footer, section {
     padding: 1rem;
@@ -95,6 +102,7 @@ header img {
 ul#navigation {
     margin: 0;
     padding: 0.25rem 0.5rem;
+    z-index: 99999;
 }
 #navigation i, #navigation a {
     color: #fff;
@@ -173,7 +181,6 @@ img#profile {
     border-radius: 100%;
     width: 20%;
     box-shadow: 0 0 0 0.5em white;
-    filter: grayscale(100%);
     transform: rotate(-20deg);
 }
 
@@ -280,11 +287,11 @@ ul.doit li {
     margin-bottom: 0;
 }
 .work-logo {
-    height: 50vh;
+    height: 20rem;
     background-size: cover !important;
 }
 .work-web {
-    height: 40vh;
+    height: 15rem;
     background-size: cover !important;
     overflow: hidden;
     position: relative;
@@ -382,6 +389,36 @@ ul.doit li {
 }
 #web-jimwalker {
     background: url('../img/work/web_jimwalker.png') top center no-repeat;
+}
+a.calltoaction {
+    margin-top: 2em;
+    display: inline-block;
+    font-size: 1.5rem;
+    color: white;
+    border: 0.1em solid #e49b3a;
+    border-radius: 0.05em;
+    padding: 0.5em 1em;
+    transition: all ease 0.5s;
+    overflow: hidden;
+    position: relative;
+    word-wrap: break-word;
+    white-space: normal;
+}
+a.calltoaction:before {
+    content: '';
+    background: #e49b3a;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    z-index: -1;
+    transition: all ease 0.5s;
+}
+a.calltoaction:hover:before,
+a.calltoaction:active:before,
+a.calltoaction:focus:before {
+    left: 0;
 }
 
 
@@ -503,10 +540,6 @@ img {
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
-.box {
-    background: rgba(0,0,0,0.4);
-}
-
 
 
 
@@ -520,6 +553,32 @@ img {
     75% { transform:translateY(-10%); }
     100% { transform:translateY(0%); }
 }
+body {
+    animation: load 3s ease forwards;
+    -moz-animation: load 2s ease forwards;
+}
+section:not(#logo) > div {
+    opacity: 0;
+}
+section:not(#logo).loaded > div {
+    animation: load 2s ease forwards;
+    -moz-animation: load 2s ease forwards;
+}
+
+@keyframes load {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+    25% {
+        display: none;
+        opacity: 0;
+    }
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
 
 
 
@@ -527,7 +586,7 @@ img {
 
 @media screen and (min-width: 1600px){
     body, html {
-        font-size: 26px;
+        font-size: 20px;
     }
     .container {
         width: 85%;
@@ -539,26 +598,22 @@ img {
         width: 95%;
     }
 }
-@media screen and (max-width: 1200px){
-    .work-logo {
-        height: 35vh;
-    }
-    .work-web {
-        height: 30vh;
-    }
-}
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
     #about h2, h2 {
         font-size: 2rem;
     }
+}
+@media screen and (min-width: 601px) and (max-width: 900px) {
     .work-logo {
-        height: 30vh;
+        height: 12rem;
     }
     .work-web {
-        height: 30vh;
+        height: 9rem;
     }
+    .work-details h5 { font-size: 1rem; }
+    .work-details p { font-size: 0.8rem; }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
     h1 {
         font-size: 3rem;
     }
@@ -591,10 +646,8 @@ img {
     #skills:after {
         display: none;
     }
-    .work-logo {
-        height: 50vh;
-    }
+
     .work-web {
-        height: 35vh;
+        height: 20rem;
     }
 }
