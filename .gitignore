@@ -2,3 +2,9 @@
 .vagrant
 /public/family-tree.zip
 /public/googled2b6c8e294d8eb39.html
+/public/assets/KarolBrennan_Resume2017.pdf
+.DS_Store
+public/.DS_Store
+public/assets/.DS_Store
+public/assets/img/kb-dark2.svg
+public/assets/img/sites.psd

@@ -38,7 +38,7 @@
 
                 <div class="row">
                     <div class="s12 col">
-                        <p><a href="http://karolbrennan.com/assets/KarolBrennan-Resume2017.pdf" class="transition cta">Download my Resumé</a>, or check out more of my work on
+                        <p><a href="http://karolbrennan.com/assets/KarolBrennan_Resume2017.pdf" class="transition cta">Download my Resumé</a>, or check out more of my work on
                         <a href="http://karol.codes" class="transition cta">GitHub!</a></p>
                     </div>
                 </div>
