@@ -3,9 +3,6 @@ h1, h2, h3, h4, h5, h6, nav {
     font-family: "Raleway", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     margin: 0.25em 0 0.5em;
     color: #ffffff;
     text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
@@ -36,9 +33,6 @@ body, p {
     font-size: 1rem;
     color: #efefef;
     text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 .italic {
     font-style: italic;
@@ -54,16 +48,8 @@ strong.italic {
 
 /* * * * * * * * * * * Main Styles * * * * * * * * * */
 body {
-    background: url('../img/desk2.jpg') top center no-repeat #31302f fixed;
-    background-size: cover;
+    background: #31302f url('../img/desk2.jpg') no-repeat fixed top center/cover;
     color: #444;
-}
-@media screen and (min-width: 768px) and (max-width: 1024px){
-    /* Fix for Safari on iOS */
-    body {
-        -webkit-background-size: auto 100vh !important;
-        background-attachment: scroll;
-    }
 }
 header, footer, section {
     padding: 1rem;
@@ -643,7 +629,15 @@ section:not(#logo).loaded > div {
 
 
 /* * * * * * * * * * * Responsive Stuff * * * * * * * * * */
-
+#bgfix {
+    display: none;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
 @media screen and (min-width: 1600px){
     body, html {
         font-size: 20px;
@@ -709,5 +703,17 @@ section:not(#logo).loaded > div {
 
     .work-web {
         height: 20rem;
+    }
+}
+
+@media screen and (max-width: 900px){
+    body {
+        background: #31302f;
+    }
+    #bgfix {
+        display: block;
+        background: #31302f url('../img/iphone_landscape_bg.jpg') no-repeat top center;
+        background-attachment: scroll;
+        background-size: cover;
     }
 }
