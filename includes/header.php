@@ -33,7 +33,7 @@
     </ul>
 </nav>
 
-<div id="logo" data-anchor="top">
+<div id="logo" data-anchor="top" class="section">
     <div class="valign-wrapper">
         <div class="valign">
             <div class="logo"><img src="/assets/img/kb-white.svg" alt="karolbrennan logo"></div>

@@ -1,4 +1,4 @@
-<section id="contactme" data-anchor="contact">
+<section id="contactme" class="section" data-anchor="contact">
     <div class="container">
         <div class="row">
             <div class="col s12">

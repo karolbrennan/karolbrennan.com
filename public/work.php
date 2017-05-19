@@ -1,5 +1,5 @@
 
-<section id="worksection" class="relative" data-anchor="work">
+<section id="worksection" class="section relative" data-anchor="work">
 
     <div class="row">
         <div class="s12 col">
