@@ -48,7 +48,7 @@ strong.italic {
 
 /* * * * * * * * * * * Main Styles * * * * * * * * * */
 body {
-    background: #31302f url('../img/desk2.jpg') no-repeat fixed top center/cover;
+    background: #31302f url('../images/desk2.jpg') no-repeat fixed top center/cover;
     color: #444;
 }
 header, footer, .section {
@@ -364,76 +364,79 @@ ul.doit li {
     background: rgba(0,0,0,0.9);
 }
 #logo-colorpro {
-    background: url('../img/work/logo_colorpro.png') center center no-repeat;
+    background: url('../images/work/logo_colorpro.png') center center no-repeat;
 }
 #logo-cornerstone {
-    background: url('../img/work/logo_cornerstone.png') center center no-repeat;
+    background: url('../images/work/logo_cornerstone.png') center center no-repeat;
 }
 #logo-inventiongroup {
-    background: url('../img/work/logo_inventiongroup.png') center center no-repeat;
+    background: url('../images/work/logo_inventiongroup.png') center center no-repeat;
 }
 #logo-letsplaybingo {
-    background: url('../img/work/logo_letsplaybingo.png') center center no-repeat;
+    background: url('../images/work/logo_letsplaybingo.png') center center no-repeat;
+}
+#logo-avalampch {
+    background: url('../images/work/logo_avalampch.png') center center no-repeat;
 }
 #logo-mapleavenue {
-    background: url('../img/work/logo_mapleavenue.png') center center no-repeat;
+    background: url('../images/work/logo_mapleavenue.png') center center no-repeat;
 }
 #logo-retrogamingzone {
-    background: url('../img/work/logo_retrogamingzone.png') center center no-repeat;
+    background: url('../images/work/logo_retrogamingzone.png') center center no-repeat;
 }
 #logo-silvertonguepress {
-    background: url('../img/work/logo_silvertonguepress.png') center center no-repeat;
+    background: url('../images/work/logo_silvertonguepress.png') center center no-repeat;
 }
 #logo-spectrum {
-    background: url('../img/work/logo_spectrum.png') center center no-repeat;
+    background: url('../images/work/logo_spectrum.png') center center no-repeat;
 }
 #logo-zealousz {
-    background: url('../img/work/logo_zealousz.png') center center no-repeat;
+    background: url('../images/work/logo_zealousz.png') center center no-repeat;
 }
 #web-cornerstone {
-    background: url('../img/work/web_cornerstone.png') top center no-repeat;
+    background: url('../images/work/web_cornerstone.png') top center no-repeat;
 }
 #web-crossroad {
-    background: url('../img/work/web_crossroad.png') top center no-repeat;
+    background: url('../images/work/web_crossroad.png') top center no-repeat;
 }
 #web-driport {
-    background: url('../img/work/web_driport.png') top center no-repeat;
+    background: url('../images/work/web_driport.png') top center no-repeat;
 }
 #web-erico {
-    background: url('../img/work/web_erico.png') top center no-repeat;
+    background: url('../images/work/web_erico.png') top center no-repeat;
 }
 #web-invention {
-    background: url('../img/work/web_inventiongroup.png') top center no-repeat;
+    background: url('../images/work/web_inventiongroup.png') top center no-repeat;
 }
 #web-letsplaybingo {
-    background: url('../img/work/web_letsplaybingo.png') top center no-repeat;
+    background: url('../images/work/web_letsplaybingo.png') top center no-repeat;
 }
 #web-wdbp {
-    background: url('../img/work/web_wdbp.png') top center no-repeat;
+    background: url('../images/work/web_wdbp.png') top center no-repeat;
 }
 #web-weconnect-simple {
-    background: url('../img/work/web_weconnect-simple.png') top center no-repeat;
+    background: url('../images/work/web_weconnect-simple.png') top center no-repeat;
 }
 #web-weconnect-rays {
-    background: url('../img/work/web_weconnect-rays.png') top center no-repeat;
+    background: url('../images/work/web_weconnect-rays.png') top center no-repeat;
 }
 #web-thunderroad {
-    background: url('../img/work/web_thunderroad.png') top center no-repeat;
+    background: url('../images/work/web_thunderroad.png') top center no-repeat;
 }
 #web-weconnect-glass {
-    background: url('../img/work/web_weconnect-glass.png') top center no-repeat;
+    background: url('../images/work/web_weconnect-glass.png') top center no-repeat;
 }
 #web-retrogamingzone {
-    background: url('../img/work/web_retrogamingzone.png') top center no-repeat;
+    background: url('../images/work/web_retrogamingzone.png') top center no-repeat;
 }
 #web-jeffjones {
-    background: url('../img/work/web_jeffjones.png') top center no-repeat;
+    background: url('../images/work/web_jeffjones.png') top center no-repeat;
 }
 #web-jims {
-    background: url('../img/work/web_jims.png') top center no-repeat;
+    background: url('../images/work/web_jims.png') top center no-repeat;
 }
 #web-jimwalker {
-    background: url('../img/work/web_jimwalker.png') top center no-repeat;
+    background: url('../images/work/web_jimwalker.png') top center no-repeat;
 }
 a.calltoaction {
     margin-top: 2em;
@@ -663,7 +666,7 @@ section:not(#logo).loaded > div {
     }
     #bgfix {
         display: block;
-        background: #31302f url('../img/iphone_landscape_bg.jpg') no-repeat top center;
+        background: #31302f url('../images/iphone_landscape_bg.jpg') no-repeat top center;
         background-attachment: scroll;
         background-size: cover;
     }
@@ -674,7 +677,7 @@ and (max-device-width: 1024px)
 and (-webkit-min-device-pixel-ratio: 2) {
     #bgfix {
         display: block;
-        background: #31302f url('../img/iphone_landscape_bg.jpg') no-repeat top center;
+        background: #31302f url('../images/iphone_landscape_bg.jpg') no-repeat top center;
         background-attachment: scroll;
         background-size: cover;
     }

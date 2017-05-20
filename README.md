@@ -8,7 +8,7 @@ http://karolbrennan.com
 This is very basic web design and development and often acts as my sandbox for trying out new things.
 
 ### Development
-This project is built on the back of my own custom [Vagrant Box](https://github.com/codemasterkarol/vagrantbox)
+This project is built on the back of my own custom [Avalampch Dev Box](https://github.com/karolbrennan/avalampch)
 
 ### Languages Used
 - HTML5
@@ -29,3 +29,5 @@ This project is built on the back of my own custom [Vagrant Box](https://github.
 - 5/17/2017 
   - Bug fixes for the navigation
   - Ensured W3 compliancy and validation
+- 5/20/2017
+  - changed the file structure for simpler deployment

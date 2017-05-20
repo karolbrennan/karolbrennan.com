@@ -13,7 +13,7 @@
         <div class="s12 m3 col work-logo" id="logo-zealousz">
 
         </div>
-        <div class="s12 m3 col work-logo" id="logo-inventiongroup">
+        <div class="s12 m3 col work-logo" id="logo-avalampch">
 
         </div>
         <div class="s12 m3 col work-logo" id="logo-mapleavenue">
@@ -24,13 +24,13 @@
         <div class="s12 m3 col work-logo" id="logo-retrogamingzone">
 
         </div>
-        <div class="s12 m3 col work-logo" id="logo-cornerstone">
+        <div class="s12 m3 col work-logo" id="logo-inventiongroup">
 
         </div>
         <div class="s12 m3 col work-logo" id="logo-spectrum">
 
         </div>
-        <div class="s12 m3 col work-logo" id="logo-silvertonguepress">
+        <div class="s12 m3 col work-logo" id="logo-cornerstone">
 
         </div>
     </div>

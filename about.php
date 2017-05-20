@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row">
                     <div class="s12 col">
-                        <img src="/assets/img/_profile.jpg" class="grayscale" alt="That's my face!" id="profile">
+                        <img src="/assets/images/_profile.jpg" class="grayscale" alt="That's my face!" id="profile">
                         <div class="headings">
                             <h1>Hello.</h1><a id="about"></a>
                             <h2>I'm Karol Brennan, <br>and I like to code my face off.</h2>

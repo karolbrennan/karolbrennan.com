@@ -1,9 +1,9 @@
 <VirtualHost *:80>
   ServerAdmin webmaster@localhost
-  ServerName "kb.dev"
-  DocumentRoot {{ document_root }}/public
+  ServerName {{APPLICATION_HOSTNAME}}
+  DocumentRoot {{ document_root }}
 
-  <Directory {{ document_root }}/public>
+  <Directory {{ document_root }}>
     SetEnv APPLICATION_ENV {{APPLICATION_ENV}}
     Options +MultiViews +Indexes
     Require all granted
