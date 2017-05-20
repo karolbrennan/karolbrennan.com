@@ -41,7 +41,7 @@
                 <div>
                     <h5>Let's Play Bingo!</h5>
                     <p>Pure JavaScript Bingo caller.</p>
-                    <p><a href="http://letsplaybingo.io">Live Site</a> | <a href="http://github.com/codemasterkarol/bingocaller">Source Code</a></p>
+                    <p><a href="http://letsplaybingo.io">Live Site</a> | <a href="http://github.com/karolbrennan/bingocaller">Source Code</a></p>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@
                 <div>
                     <h5>Web Design Best Practices</h5>
                     <p>A collection of best practices for taking a website from planning to deployment.</p>
-                    <p><a href="http://webdesignbestpractices.com">Live Site</a> | <a href="http://github.com/codemasterkarol/bestpractices">Source Code</a></p>
+                    <p><a href="http://webdesignbestpractices.com">Live Site</a> | <a href="http://github.com/karolbrennan/bestpractices">Source Code</a></p>
                 </div>
             </div>
         </div>
@@ -59,7 +59,7 @@
                 <div>
                     <h5>The Invention Group</h5>
                     <p>Fictional consulting group that helps inventors bring their inventions market.</p>
-                    <p><a href="http://invention.karolbrennan.com">Live Site</a> | <a href="http://github.com/codemasterkarol/inventiongroup">Source Code</a></p>
+                    <p><a href="http://invention.karolbrennan.com">Live Site</a> | <a href="http://github.com/karolbrennan/inventiongroup">Source Code</a></p>
                 </div>
             </div>
         </div>
@@ -96,7 +96,7 @@
                 <div>
                     <h5>Retro Gaming Zone</h5>
                     <p>Database for tracking retro gaming collections.</p>
-                    <p><a href="http://retrogaming.zone">Live Site</a> | <a href="http://github.com/codemasterkarol/retrogamingzone">Source Code</a></p>
+                    <p><a href="http://retrogaming.zone">Live Site</a> | <a href="http://github.com/karolbrennan/retrogamingzone">Source Code</a></p>
                 </div>
             </div>
         </div>
@@ -113,7 +113,7 @@
                 <div>
                     <h5>Cornerstone Hosting</h5>
                     <p>Web Hosting company site.</p>
-                    <p><a href="http://cornerstone.host">Live Site</a> | <a href="http://github.com/codemasterkarol/cornerstone">Source Code</a></p>
+                    <p><a href="http://cornerstone.host">Live Site</a> | <a href="http://github.com/karolbrennan/cornerstone">Source Code</a></p>
                 </div>
             </div>
         </div>
@@ -173,7 +173,7 @@
 
     <div class="row">
         <div class="s12 col">
-            <p class="center-align"><a href="http://github.com/codemasterkarol/portfolio" class="calltoaction">See More of My Work on GitHub!</a></p>
+            <p class="center-align"><a href="http://github.com/karolbrennan/portfolio" class="calltoaction">See More of My Work on GitHub!</a></p>
         </div>
     </div>
 
