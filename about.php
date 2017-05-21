@@ -22,6 +22,9 @@
                         <p>It is my goal to provide clients with sites and applications that meet their needs through clean, quality
                             code, and beautiful, pixel-perfect user experiences.</p>
                         <p><a href="#contact" id="contactlink" data-scroll="contact">Contact me</a> if you're interested in working together!</p>
+
+                        <p><a href="http://karolbrennan.com/assets/KarolBrennan_Resume2017.pdf" class="transition cta">Download my Resumé</a>, or check out more of my work on
+                            <a href="http://karol.codes" class="transition cta">GitHub!</a></p>
                     </div>
                     <div class="s12 m5 col">
                         <h3>What Can I Do For You?</h3>
@@ -30,16 +33,10 @@
                             <li>Responsive Website Development <em>Guaranteed to work on all browsers and devices!</em></li>
                             <li>Content Management System Installation <em>Manage your own content!</em></li>
                             <li>Website Redesign <em>Give your site a face lift!</em></li>
+                            <li>UX Research and Analysis <em>Let's improve your conversions by putting users first!</em></li>
                             <li>Search Engine Optimization (SEO) Services <em>Let's boost your Google ranking!</em></li>
                             <li>Consulting services <em>Let me know how I can help!</em></li>
                         </ul>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="s12 col">
-                        <p><a href="http://karolbrennan.com/assets/KarolBrennan_Resume2017.pdf" class="transition cta">Download my Resumé</a>, or check out more of my work on
-                        <a href="http://karol.codes" class="transition cta">GitHub!</a></p>
                     </div>
                 </div>
             </div>
