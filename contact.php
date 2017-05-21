@@ -17,7 +17,7 @@
                 <ul class="social">
                     <li><a href="http://linkedin.com/in/karolbrennan"><i class="fa fa-linkedin-square"></i> <span>LinkedIn</span></a></li>
                     <li><a href="http://github.com/karolbrennan"><i class="fa fa-github"></i> <span>GitHub</span></a></li>
-                    <li><a href="http://twitter.com/codemasterkarol"><i class="fa fa-twitter"></i> <span>Twitter</span></a></li>
+                    <li><a href="http://twitter.com/itskarolbrennan"><i class="fa fa-twitter"></i> <span>Twitter</span></a></li>
                 </ul>
             </div>
         </div>
