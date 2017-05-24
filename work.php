@@ -64,28 +64,29 @@
             </div>
         </div>
     </div>
+
     <div class="row collapse">
-        <div class="s12 m4 col work-web" id="web-crossroad">
+        <div class="s12 m4 col work-web" id="web-weconnect-glass">
             <div class="work-details">
                 <div>
-                    <h5>Crossroads PowerSports</h5>
-                    <p>Redesign for a powersports dealership</p>
+                    <h5>WeConnect Theme</h5>
+                    <p>Stained Glass theme for the WeConnect CMS.</p>
                 </div>
             </div>
         </div>
-        <div class="s12 m4 col work-web" id="web-erico">
+        <div class="s12 m4 col work-web" id="web-weconnect-simple">
             <div class="work-details">
                 <div>
-                    <h5>Erico Motorsports</h5>
-                    <p>Redesign for a powersports dealership</p>
+                    <h5>WeConnect Theme</h5>
+                    <p>Simple theme for the WeConnect CMS.</p>
                 </div>
             </div>
         </div>
-        <div class="s12 m4 col work-web" id="web-driport">
+        <div class="s12 m4 col work-web" id="web-weconnect-rays">
             <div class="work-details">
                 <div>
-                    <h5>DriPort Marine</h5>
-                    <p>Redesign for a powersports dealership</p>
+                    <h5>WeConnect Theme</h5>
+                    <p>Rays of Light theme for the WeConnect CMS.</p>
                 </div>
             </div>
         </div>
@@ -119,27 +120,27 @@
         </div>
     </div>
     <div class="row collapse">
-        <div class="s12 m4 col work-web" id="web-weconnect-glass">
+        <div class="s12 m4 col work-web" id="web-crossroad">
             <div class="work-details">
                 <div>
-                    <h5>WeConnect Theme</h5>
-                    <p>Stained Glass theme for the WeConnect CMS.</p>
+                    <h5>Crossroads PowerSports</h5>
+                    <p>Redesign for a powersports dealership</p>
                 </div>
             </div>
         </div>
-        <div class="s12 m4 col work-web" id="web-weconnect-simple">
+        <div class="s12 m4 col work-web" id="web-erico">
             <div class="work-details">
                 <div>
-                    <h5>WeConnect Theme</h5>
-                    <p>Simple theme for the WeConnect CMS.</p>
+                    <h5>Erico Motorsports</h5>
+                    <p>Redesign for a powersports dealership</p>
                 </div>
             </div>
         </div>
-        <div class="s12 m4 col work-web" id="web-weconnect-rays">
+        <div class="s12 m4 col work-web" id="web-driport">
             <div class="work-details">
                 <div>
-                    <h5>WeConnect Theme</h5>
-                    <p>Rays of Light theme for the WeConnect CMS.</p>
+                    <h5>DriPort Marine</h5>
+                    <p>Redesign for a powersports dealership</p>
                 </div>
             </div>
         </div>
