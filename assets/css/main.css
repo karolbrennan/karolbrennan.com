@@ -443,7 +443,7 @@ a.calltoaction {
     display: inline-block;
     font-size: 1.5rem;
     color: white;
-    border: 0.1em solid #e49b3a;
+    border: 0.2rem solid #e49b3a;
     border-radius: 0.05em;
     padding: 0.5em 1em;
     transition: all ease 0.5s;
@@ -461,14 +461,14 @@ a.calltoaction:before {
     left: -100%;
     top: 0;
     z-index: -1;
-    transition: all ease 0.5s;
+    transition: all ease 1s;
 }
 a.calltoaction:hover:before,
 a.calltoaction:active:before,
 a.calltoaction:focus:before {
     left: 0;
+    transition: all ease 0.5s;
 }
-
 
 /* * * * * * * * * * * Contact * * * * * * * * * */
 #contactme {
