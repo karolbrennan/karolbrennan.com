@@ -59,7 +59,7 @@
                 <div>
                     <h5>The Invention Group</h5>
                     <p>Fictional consulting group that helps inventors bring their inventions market.</p>
-                    <p><a href="http://invention.karolbrennan.com">Live Site</a> | <a href="http://github.com/karolbrennan/inventiongroup">Source Code</a></p>
+                    <p><a href="http://github.com/karolbrennan/inventiongroup">Source Code</a></p>
                 </div>
             </div>
         </div>
@@ -140,32 +140,6 @@
                 <div>
                     <h5>WeConnect Theme</h5>
                     <p>Rays of Light theme for the WeConnect CMS.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row collapse">
-        <div class="s12 m4 col work-web" id="web-jeffjones">
-            <div class="work-details">
-                <div>
-                    <h5>Jeff Jones Marine</h5>
-                    <p>Redesign for a marine dealership</p>
-                </div>
-            </div>
-        </div>
-        <div class="s12 m4 col work-web" id="web-jimwalker">
-            <div class="work-details">
-                <div>
-                    <h5>Jim Walker Motorcycles</h5>
-                    <p>Redesign for a powersports dealership</p>
-                </div>
-            </div>
-        </div>
-        <div class="s12 m4 col work-web" id="web-jims">
-            <div class="work-details">
-                <div>
-                    <h5>Jim's Motorcycle Sales</h5>
-                    <p>Redesign for a powersports dealership</p>
                 </div>
             </div>
         </div>
