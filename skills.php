@@ -1,6 +1,6 @@
 <?php
 $skills = [
-    'Web Design', 'UX Design', 'Web Development', 'Object Oriented Programming'
+    'Web Design', 'User Experience Design', 'UI Design', 'Web Development'
 ];
 $languages = [
     'HTML', 'CSS', 'PHP', 'MySQL', 'JavaScript'

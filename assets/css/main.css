@@ -78,7 +78,7 @@ header, footer, .section {
 }
 #menutoggle i {
     color: rgba(255, 255, 255, 0.57);
-    font-size: 2rem;
+    font-size: 1.5rem;
     transition: all ease 0.5s;
 }
 #menutoggle i:hover {
@@ -88,10 +88,8 @@ header, footer, .section {
     transform: rotate(360deg);
 }
 #logolink img {
-    height: 3rem;
+    height: 2rem;
     width: auto;
-    background: rgba(0, 0, 0, 0.3);
-    padding: 0.5rem;
 }
 
 
@@ -506,6 +504,15 @@ a .fa-linkedin-square {
     border-radius: 0.15em;
     overflow: hidden;
     box-shadow: inset 0 0 0 0.05em #0077B5, 0 0 0 0.02em #0077B5;
+}
+a .fa-facebook-square {
+    color: #4267b2;
+    background: white;
+    border-radius: 0.15em;
+    text-shadow: none;
+    line-height: 0.8;
+    overflow: hidden;
+    box-shadow: inset 0 0 0 0.05em #4267b2, 0 0 0 0.02em #4267b2;
 }
 a .fa-github {
     background: #444;
