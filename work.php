@@ -50,7 +50,7 @@
                 <div>
                     <h5>Web Design Best Practices</h5>
                     <p>A collection of best practices for taking a website from planning to deployment.</p>
-                    <p><a href="http://webdesignbestpractices.com">Live Site</a> | <a href="http://github.com/karolbrennan/bestpractices">Source Code</a></p>
+                    <p><a href="http://webdesignbestpractices.com">Live Site</a> | <a href="http://github.com/karolbrennan/webdesignbestpractices">Source Code</a></p>
                 </div>
             </div>
         </div>
