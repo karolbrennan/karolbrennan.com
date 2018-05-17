@@ -223,7 +223,6 @@ img#profile {
     border-radius: 100%;
     width: 20%;
     box-shadow: 0 0 0 0.5em white;
-    transform: rotate(-20deg);
 }
 
 #aboutsection .intro p {
