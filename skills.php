@@ -1,12 +1,12 @@
 <?php
 $skills = [
-    'Web Design', 'User Experience Design', 'UI Design', 'Web Development'
+    'Front End Development', 'Web Design', 'UI/UX Design', 'Full Stack Development'
 ];
 $languages = [
     'HTML', 'CSS', 'PHP', 'MySQL', 'JavaScript'
 ];
 $frameworks = [
-    'jQuery', 'CSS Frameworks', 'Foundation', 'Bootstrap', 'Materialize CSS',
+    'ReactJS', 'jQuery', 'CSS Frameworks', 'Foundation', 'Bootstrap', 'Materialize CSS',
     'Nova (Simple MVC) Framework', 'Zend 1 Framework'
 ];
 $tools = [

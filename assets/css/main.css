@@ -20,12 +20,12 @@ header a, footer a {
     font-weight: 700;
 }
 a {
-    color: #E49B3A;
+    color: #3aade4;
     font-weight: 900;
 }
 a:hover {
     cursor: pointer;
-    color: #289c69;
+    color: #2a79a0;
 }
 body, p {
     font-family: "Raleway", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -41,7 +41,7 @@ strong {
     font-weight: 900;
 }
 strong.italic {
-    color: #289c69;
+    color: #3aade4;
 }
 
 
@@ -130,7 +130,7 @@ nav ul li a:hover {
     background-color: transparent;
 }
 nav a.active {
-    color: #E49B3A;
+    color: #3aade4;
 }
 #navigation ul.open {
     visibility: visible;
@@ -207,7 +207,7 @@ nav a.active {
 #aboutsection h2 {
     font-size: 2.75rem;
     margin: 0 0 1em;
-    color: #e49b3a;
+    color: #3aade4;
     width: auto;
 }
 #profile, .headings {
@@ -247,7 +247,7 @@ ul.doit li {
     font-size: 2rem;
     vertical-align: middle;
     line-height: 1;
-    color: #e49b3a;
+    color: #3aade4;
 }
 .doit li em {
     display: block;
@@ -270,7 +270,7 @@ ul.doit li {
     display: block;
     content: '';
     /*background: rgba(228, 155, 58, 0.54);*/
-    background: rgba(23, 90, 61, 0.54);
+    background: rgba(31, 69, 90, 0.54);
     position: absolute;
     top: 0;
     right: 0;
@@ -279,7 +279,7 @@ ul.doit li {
     z-index: -1;
 }
 #skillssection h3 {
-    color: #e49b3a;
+    color: #3aade4;
     margin-left: 2rem;
 }
 #skillssection p {
@@ -304,7 +304,7 @@ ul.doit li {
 #worksection:before {
     display: block;
     content: '';
-    background: rgba(204, 52, 98, 0.34);
+    background: rgba(52, 134, 204, 0.34);
     height: 50%;
     position: absolute;
     top: 0;
@@ -315,7 +315,7 @@ ul.doit li {
 #worksection:after {
     display: block;
     content: '';
-    background: rgba(204, 52, 98, 0.34);
+    background: rgba(52, 134, 204, 0.34);
     height: 50%;
     position: absolute;
     bottom: 0;
@@ -376,8 +376,8 @@ ul.doit li {
 #logo-avalampch {
     background: url('../images/work/logo_avalampch.png') center center no-repeat;
 }
-#logo-mapleavenue {
-    background: url('../images/work/logo_mapleavenue.png') center center no-repeat;
+#logo-matkasmarvels {
+    background: url('../images/work/logo_matkasmarvels.png') center center no-repeat;
 }
 #logo-retrogamingzone {
     background: url('../images/work/logo_retrogamingzone.png') center center no-repeat;
@@ -387,6 +387,9 @@ ul.doit li {
 }
 #logo-spectrum {
     background: url('../images/work/logo_spectrum.png') center center no-repeat;
+}
+#logo-vitalautoservice {
+    background: url('../images/work/logo_vitalautoservice.png') center center no-repeat;
 }
 #logo-zealousz {
     background: url('../images/work/logo_zealousz.png') center center no-repeat;
@@ -409,8 +412,17 @@ ul.doit li {
 #web-letsplaybingo {
     background: url('../images/work/web_letsplaybingo.png') top center no-repeat;
 }
+#web-letsplaybingo2 {
+    background: url('../images/work/web_letsplaybingo2.png') top center no-repeat;
+}
+#web-matkasmarvels {
+    background: url('../images/work/web_matkasmarvels.png') top center no-repeat;
+}
 #web-wdbp {
     background: url('../images/work/web_wdbp.png') top center no-repeat;
+}
+#web-vitalautoservice {
+    background: url('../images/work/web_vitalautoservice.png') top center no-repeat;
 }
 #web-weconnect-simple {
     background: url('../images/work/web_weconnect-simple.png') top center no-repeat;
@@ -441,7 +453,7 @@ a.calltoaction {
     display: inline-block;
     font-size: 1.5rem;
     color: white;
-    border: 0.2rem solid #e49b3a;
+    border: 0.2rem solid #3aade4;
     border-radius: 0.05em;
     padding: 0.5em 1em;
     transition: all ease 0.5s;
@@ -452,7 +464,7 @@ a.calltoaction {
 }
 a.calltoaction:before {
     content: '';
-    background: #e49b3a;
+    background: #3aade4;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -470,7 +482,7 @@ a.calltoaction:focus:before {
 
 /* * * * * * * * * * * Contact * * * * * * * * * */
 #contactme {
-    background: rgba(23, 90, 61, 0.84);
+    background: rgba(23, 75, 90, 0.84);
 }
 #contactme {
     position: relative;
@@ -727,7 +739,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         margin: 0;
     }
     #skillssection {
-        background: rgba(228, 155, 58, 0.54);
+        background: rgba(42, 121, 160, 0.54);
     }
     #skillssection:after {
         display: none;
