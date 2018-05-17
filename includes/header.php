@@ -12,13 +12,13 @@
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
 
-    <meta name="description" content="Southeast Wisconsin based Front End Developer">
+    <meta name="description" content="Southeast Wisconsin based Front End Web Developer">
     <meta name="keywords" content="Front End Developer, Web Design, Web Development, Full Stack Web Developer, UX Designer, Web Designer, Web Developer, Freelance">
     <meta property="og:image" content="http://karolbrennan.com/assets/images/ogimage.png"/>
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@codemasterkarol" />
-    <meta name="twitter:title" content="Karol Brennan : Full Stack Web Developer / UI/UX Designer" />
-    <meta name="twitter:description" content="Southeast Wisconsin based Front End Developer" />
+    <meta name="twitter:title" content="Karol Brennan : Front End Web Developer" />
+    <meta name="twitter:description" content="Southeast Wisconsin based Front End Web Developer" />
     <meta name="twitter:image" content="http://karolbrennan.com/assets/images/ogimage.png" /><meta name="twitter:image:alt" content="Karol Brennan Web Developer" />
 </head>
 <body class="flow-text">
