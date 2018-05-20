@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://karolbrennan.com/assets/images/favicon.ico">
 
     <meta name="description" content="Southeast Wisconsin based Front End Web Developer">
     <meta name="keywords" content="Front End Developer, Web Design, Web Development, Full Stack Web Developer, UX Designer, Web Designer, Web Developer, Freelance">

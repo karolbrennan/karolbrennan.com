@@ -207,7 +207,7 @@ nav a.active {
 #aboutsection h2 {
     font-size: 2.75rem;
     margin: 0 0 1em;
-    color: #3aade4;
+    color: #86d8ff;
     width: auto;
 }
 #profile, .headings {
@@ -278,7 +278,7 @@ ul.doit li {
     z-index: -1;
 }
 #skillssection h3 {
-    color: #3aade4;
+    color: #86d8ff;
     margin-left: 2rem;
 }
 #skillssection p {
