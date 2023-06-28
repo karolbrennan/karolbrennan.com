@@ -1,8 +1,6 @@
-# KarolBrennan.com
+# KarolBrennan.com - 2017 (Archived)
 This is my personal domain which is used to showcase my work.
 
-#### Current URL
-http://karolbrennan.com
 
 ## Technology
 This is very basic web design and development and often acts as my sandbox for trying out new things.
